@@ -1,0 +1,61 @@
+[METADATA]
+Condition: Osteoarthritis (Knee, Hip, Polyarticular)
+Source: OARSI Guidelines (Bannuru et al., 2019)
+DOI: 10.1016/j.joca.2019.06.011
+Topic: Non-Surgical Management & Core Treatments
+Key Finding: Structured Land-Based Exercise is a "Core Treatment" for all patients.
+Target Group: All OA patients (Knee, Hip, Polyarticular)
+
+# SOURCE: OARSI Guidelines for Non-Surgical Management (2019)
+## THE "CORE TREATMENTS" (Mandatory for All)
+- **Definition:** These treatments are considered effective and safe for *all* patients, regardless of comorbidities (heart issues, diabetes, etc.).
+- **1. Arthritis Education:** Teaching the patient about the disease.
+- **2. Structured Land-Based Exercise:**
+  - *Status:* Mandatory Core Treatment.
+  - *Recommendation:* Should be prescribed to every patient with Knee, Hip, or Polyarticular OA.
+- **3. Dietary Weight Management:**
+  - *Status:* Core Treatment specifically for **Knee OA**.
+  - *Recommendation:* Critical for overweight patients to reduce joint load.
+
+## EXERCISE SPECIFICS BY JOINT
+### 1. Knee Osteoarthritis
+- **Recommended (Green Light):**
+  - **Land-Based Exercise:** Strength training, walking, functional training.
+  - **Mind-Body Exercise:** Tai Chi and Yoga (Strongly supported for pain reduction).
+  - **Aquatic Exercise:** Recommended *conditionally* (Level 1B/2).
+    - *Note:* Excellent for patients who cannot tolerate land-based impact.
+- **Contraindication (Red Light):**
+  - **Frailty Warning:** Aquatic exercise is **NOT** recommended for frail patients due to slip/fall risk on wet surfaces.
+
+### 2. Hip Osteoarthritis
+- **Recommended (Green Light):**
+  - **Land-Based Exercise:** Focusing on gluteal strengthening and mobility.
+  - **Mind-Body Exercise:** Tai Chi is beneficial for balance and range of motion.
+- **Not Recommended:**
+  - **Aquatic Exercise:** Unlike Knee OA, there was insufficient evidence to recommend aquatic exercise specifically for Hip OA in this guideline.
+
+### 3. Polyarticular OA (Multiple Joints)
+- **Recommended:**
+  - **Mind-Body Exercise (Tai Chi/Yoga):** Highly recommended because it addresses multiple joints simultaneously without heavy loading.
+  - **Gait Aids:** Canes or walker sticks are recommended to offload weight.
+
+## COMORBIDITY SAFETY RULES (The "Blend" Logic)
+- **Scenario: Patient with Frailty (Weak/Elderly)**
+  - *Rule:* AVOID Aquatic Exercise (Fall Risk).
+  - *Rule:* AVOID Oral NSAIDs (Heart/Kidney Risk).
+  - *Alternative:* Focus on seated land-based strengthening.
+- **Scenario: Patient with Depression/Widespread Pain**
+  - *Rule:* Combining exercise with **CBT (Cognitive Behavioral Therapy)** is more effective than exercise alone.
+  - *Alternative:* Mind-body exercises (Yoga) are preferred over pure mechanical lifting due to the mental health component.
+
+## CHATBOT LOGIC (THE BLEND)
+- **The "Water" Distinction:**
+  - *User:* "I have hip pain, should I swim?"
+  - *Bot:* "While swimming is great for general health, the OARSI 2019 guidelines specifically recommend **Land-Based Exercise** as the primary treatment for Hip OA. Water exercise is more proven for Knee OA."
+- **The "Pill vs. Movement" Rule:**
+  - *User:* "Can I just take painkillers?"
+  - *Bot:* "OARSI guidelines list **Exercise** as a 'Core Treatment,' meaning it is mandatory. Pills (NSAIDs) are secondary. You cannot treat OA effectively with medication alone."
+
+=====================================================================
+===   END OF SOURCE 1  |  START OF SOURCE 2   ===
+=====================================================================

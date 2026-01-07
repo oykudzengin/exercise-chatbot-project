@@ -1,31 +1,142 @@
-# SOURCE : ACSM - 6 Tips for Physical Activity with Type 2 Diabetes
-## CATEGORY : Disease Management / 
-### TARGET GROUP : People with Type 2 Diabetes Disease
+[METADATA]
+Condition: Type 2 Diabetes
+Source: ACSM - "6 Tips for Physical Activity with Type 2 Diabetes"
+Target Group: People with Type 2 Diabetes
+Keywords: aerobic, resistance, post-prandial, insulin, beta blockers, RPE, hypoglycemia
+Risk Level: General Advice (Patient-Facing)
 
-**EXPLANATION:** Diabetes is a chronic disease that affects more than 463 million people worldwide, and Type 2 Diabetes accounts for 90%–95% of all cases. Research in exercise science confirms that physical activity can help prevent type 2 diabetes, as well as help patients manage its effects.
+# CONDITION: Type 2 Diabetes (Lifestyle Tips)
+# SOURCE: ACSM "6 Tips" Article
 
-1. **Regular Aerobic Exercise:**
-   - Participating in regular aerobic exercise helps manage blood glucose.
+## TIMING RULE (WHEN TO EXERCISE)
+- **The "After Meal" Rule:** Schedule workouts *after* eating rather than before.
+- **Reason:** Being active after meals helps reduce blood glucose levels and takes advantage of exercise’s natural glucose-stabilizing benefits.
 
-2. **High-intensity resistance exercise:**
-   - This type of exercise, when performed safely, will help more than low- to moderate-intensity exercise.
+## RECOMMENDED EXERCISE TYPES (GREEN LIGHT)
+- **1. Aerobic Exercise:** Regular participation is confirmed to help manage blood glucose.
+- **2. Resistance Exercise:** High-intensity resistance exercise (if performed safely) is more effective than low-to-moderate intensity exercise for this condition.
 
-3. **Be Active After Meals:**
-   - Being active after eating may help those with T2D reduce blood glucose.
+## MEDICATION & SAFETY ADJUSTMENTS (YELLOW/RED LIGHT)
+### 1. Insulin Users (Avoiding the "Crash")
+- **Risk:** Hypoglycemia (blood sugar crashing) during or after a workout.
+- **Action:** Patients taking insulin should either lower their insulin dose or supplement with carbohydrates before exercise to prevent a crash.
 
-4. **Avoid crashing during or after a workout :**
-   - People who use insulin should lower their levels or supplement with carbs to avoid a crash during or after their workout. 
+### 2. Beta Blocker Users (Heart Rate Warning)
+- **Constraint:** Beta blockers artificially lower heart rate, making heart rate monitors inaccurate/useless for measuring intensity.
+- **Action:** DO NOT rely on a heart rate monitor.
+- **Alternative:** Use the **RPE (Rate of Perceived Exertion)** scale to track how hard the workout feels (e.g., "Is this light, hard, or very hard?").
 
-5. **For those who usebeta blockers:**
-   - Don’t rely on a heart monitor to measure workout intensity. Ask a certified exercise professional about using ratings of perceived exertion (RPE) to track how a workout feels.
+## SUMMARY OF BENEFITS
+- **Global Impact:** Diabetes affects >463 million people.
+- **Prevention & Management:** Research confirms physical activity is a primary tool for both preventing Type 2 Diabetes and managing its daily effects.
+=====================================================================
+===   END OF SOURCE 1  |  START OF SOURCE 2   ===
+=====================================================================
 
-6. **When to schedule workouts:**
-   - Try and schedule workouts after meals
-instead of before them.
-Doing so will let you take advantage
-of exercise’s blood glucose-stabilizing
-benefits. 
+[METADATA]
+Condition: Type 2 Diabetes
+Source: Garcia et al. (2025) - Diabetes Research and Clinical Practice
+Topic: Effectiveness of Different Exercise Types on HbA1c
+Key Finding: HIIT is the most effective method for lowering blood sugar.
+Comparison: HIIT vs. Aerobic vs. Resistance vs. Advice
 
+# SECTION: DEFINITIONS AND BASICS
+## What is HbA1c?
+- **Simple Definition:** HbA1c (Hemoglobin A1c) is a blood test that shows your average blood sugar level over the past 2-3 months.
+- **The "Security Camera" Analogy:**
+  - A daily finger-prick test is like a **snapshot**—it only tells you what is happening right this second.
+  - The HbA1c test is like **security camera footage**—it shows the whole story of what happened over the last few months.
+- **Why it matters:** It is the gold standard for seeing if diabetes is under control. Lowering it even by a small amount (like 0.5%) significantly reduces the risk of complications (eye damage, kidney issues, etc.).
 
+## User Keywords (Synonyms)
+- If the user says: "average sugar", "3 month test", "long term diabetes control", "A1c", or "blood sugar score".
+- The Chatbot should understand: They are referring to **HbA1c**.
 
+# SOURCE: Network Meta-Analysis of 158 RCTs (Garcia et al., 2025)
+## THE HIERARCHY OF EFFECTIVENESS (Ranking by HbA1c Reduction)
+- **Rank 1 (Best):** High-Intensity Interval Training (HIIT)
+  - *Reduction:* -0.61% HbA1c
+  - *SUCRA Score:* 82% (highest probability of being the best treatment)
+  - *Note:* This is the most time-efficient method but requires higher effort.
 
+- **Rank 2 (Tie):** Combined Training (Aerobic + Resistance)
+  - *Reduction:* -0.58% HbA1c
+  - *SUCRA Score:* 77%
+
+- **Rank 3 (Tie):** Aerobic Training (AT)
+  - *Reduction:* -0.58% HbA1c
+  - *SUCRA Score:* 76%
+
+- **Rank 4:** Resistance Training (RT)
+  - *Reduction:* -0.40% HbA1c
+  - *SUCRA Score:* 37%
+
+- **Rank 5:** Physical Activity Advice (Unsupervised)
+  - *Reduction:* -0.35% HbA1c
+  - *SUCRA Score:* 29%
+  - *Takeaway:* Simply telling patients to "move more" works, but it is roughly half as effective as structured HIIT.
+
+## CLINICAL TAKEAWAYS FOR CHATBOT
+- **Recommendation Logic:** If the user is capable of high intensity, recommend HIIT for maximum results.
+- **Alternative:** If the user prefers steady exercise, Combined Training or Aerobic Training are nearly as effective (-0.58% vs -0.61%).
+- **Minimum Effective Dose:** Even unstructured "Physical Activity Advice" leads to a significant drop (-0.35%), so it is better than doing nothing.
+
+=====================================================================
+===   END OF SOURCE 2  |  START OF SOURCE 3   ===
+=====================================================================
+[METADATA]
+Condition: Type 2 Diabetes
+Source: ACSM Consensus Statement (Kanaley et al., 2022) - DOI: 10.1249/mss.0000000000002800
+Topic: Updated Exercise & Physical Activity Guidelines
+Key Updates: Sedentary breaks, Post-prandial timing, HIIT acceptance, Weight loss targets
+Target Group: Adults with Type 2 Diabetes
+
+# SOURCE: ACSM Consensus Statement (2022 Update)
+## MAJOR SHIFT: "ACTIVITY" VS "EXERCISE"
+- **New Paradigm:** The guidelines now emphasize "Physical Activity" (all movement) rather than just "Exercise" (planned workouts).
+- **The "Sedentary Break" Rule:** Prolonged sitting should be interrupted every **30 minutes** with bouts of light activity (e.g., walking, simple body-weight movements).
+- **Why?** Breaking up sedentary time modestly attenuates postprandial glucose and insulin levels, especially in those with insulin resistance and higher BMI.
+
+## UPDATED EXERCISE PRESCRIPTION (FITT)
+### 1. Aerobic Activity
+- **Frequency:** 3–7 days/week. (Note: "No more than 2 consecutive days without activity" rule remains).
+- **Duration:** 150–300 min/week (Moderate) OR 75–150 min/week (Vigorous).
+- **Intensity:** Moderate (40–59% VO2R) to Vigorous (60–89% VO2R).
+
+### 2. Resistance Training (RT)
+- **Frequency:** 2–3 days/week on non-consecutive days.
+- **Volume:** 8–10 exercises targeting major muscle groups.
+- **Sets/Reps:** 1–3 sets of 10–15 repetitions.
+- **Intensity:**
+  - *Moderate:* 50–69% of 1RM.
+  - *Vigorous:* 70–85% of 1RM.
+- **Key Finding:** High-intensity resistance training has **greater beneficial effects** on overall glucose management and insulin levels compared to low-to-moderate intensity RT.
+
+### 3. High-Intensity Interval Training (HIIT)
+- **Status:** Officially recommended as "appropriate" for most individuals.
+- **Benefit:** Promotes rapid enhancement of oxidative capacity and insulin sensitivity.
+- **Efficiency:** Can provide similar cardioprotective benefits to continuous training in less time.
+
+## TIMING & WEIGHT LOSS RULES
+- **The "Post-Prandial" Rule:** Exercise performed **after meals** reduces blood glucose levels more effectively than exercise performed at other times.
+  - *Recommendation:* A 15-minute walk after a meal is highly effective.
+- **The "5% Threshold" Rule:** To see beneficial effects on HbA1c, blood lipids, and blood pressure, a weight loss of **>5%** is necessary.
+- **Visceral Fat Rule:** To reduce visceral (belly) fat, a higher volume of exercise (~500 kcal/session, 4–5 days/week) is often needed.
+
+## SAFETY & CONTRAINDICATIONS
+### Hypoglycemia (Low Blood Sugar)
+- **Risk:** Insulin and insulin secretagogues (e.g., sulfonylureas) increase risk.
+- **Action:** Users on these meds should consume carbohydrates OR reduce insulin dosage before exercise.
+- **Carbohydrate Supplementation:** If blood glucose is <100 mg/dL, ingest carbs before starting.
+
+### Hyperglycemia (High Blood Sugar)
+- **Ketone Rule:** If blood glucose is >250 mg/dL (13.9 mmol/L) **AND** moderate-to-large ketones are present in urine/blood -> **DO NOT EXERCISE**.
+- **Safe Zone:** If blood glucose is >300 mg/dL (16.7 mmol/L) but **NO ketones** are present -> Light-to-moderate exercise is safe (and may help lower it). Ensure good hydration.
+
+### Complication-Specific Adjustments
+- **Peripheral Neuropathy:** Proper footwear is critical. Check feet daily. (Note: The 2022 guidelines are less restrictive on "weight-bearing" than 2010, focusing more on foot inspection).
+- **Retinopathy:** Avoid activities that spike blood pressure dramatically (e.g., heavy lifting with breath-holding/Valsalva, head-down yoga positions).
+
+=====================================================================
+===   END OF SOURCE 3  |  START OF SOURCE 4   ===
+=====================================================================
