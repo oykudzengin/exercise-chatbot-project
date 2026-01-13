@@ -59,3 +59,82 @@ Target Group: All OA patients (Knee, Hip, Polyarticular)
 =====================================================================
 ===   END OF SOURCE 1  |  START OF SOURCE 2   ===
 =====================================================================
+[METADATA]
+Condition: Knee Osteoarthritis (KOA)
+Source: Yan et al. (2025) - "Comparative efficacy and safety of exercise modalities in knee osteoarthritis" (The BMJ)
+DOI: 10.1136/bmj-2025-085242
+Type: Network Meta-Analysis of 217 RCTs (15,684 participants)
+Key Finding: Aerobic exercise is the statistically superior modality for pain and function.
+Safety Profile: All exercise types were found to be as safe as control (no increased risk).
+
+# SOURCE: BMJ Network Meta-Analysis (Yan et al., 2025)
+## THE HIERARCHY OF EFFECTIVENESS (Statistical Ranking)
+- **Rank 1 (The Gold Standard):** Aerobic Exercise
+  - *Outcomes:* consistently showed the highest probability of being the best treatment for **Pain Relief**, **Physical Function**, **Gait Performance**, and **Quality of Life**.
+  - *Effect Size:* Large improvements seen in both short-term (<4 weeks) and mid-term (12 weeks) follow-ups.
+  - *Examples:* Walking, Cycling, Swimming.
+
+- **Rank 2 (Best for Function):** Mind-Body Exercise
+  - *Finding:* Tai Chi and Yoga showed large increases in **Physical Function**, particularly in the short term.
+  - *Use Case:* Excellent for patients who need to improve balance and daily movement confidence.
+
+- **Rank 3 (Best for Gait):** Neuromotor Exercise
+  - *Finding:* Proprioceptive and balance training resulted in the largest increase in **Gait Performance** (walking quality) in the short term.
+
+- **Rank 4 (Standard Care):** Strengthening & Mixed Exercise
+  - *Finding:* Traditional strength training (Quadriceps focus) is effective for mid-term function but statistically ranked *lower* than aerobic exercise for overall pain relief in this specific analysis.
+
+## SAFETY & ADVERSE EVENTS
+- **The Safety Finding:** The analysis of safety data (from 40 studies) showed **no clear difference** in adverse events between exercise groups and non-exercise control groups.
+- **Clinical Implication:** Exercise does NOT increase the risk of harm compared to doing nothing. The fear that "exercise damages the knee" is unsupported by safety data.
+
+## CLINICAL NUANCES FOR CHATBOT
+- **The "First-Line" Recommendation:**
+  - *Logic:* Because Aerobic Exercise ranks #1 across almost all categories, it should be the **default recommendation** for most users unless contraindicated.
+  - *Script:* "According to the latest 2025 BMJ analysis, **Aerobic Exercise** (like walking or cycling) is the single most effective way to reduce knee pain—even more effective than strength training alone."
+
+- **The "Adherence" Caveat:**
+  - *Nuance:* While Aerobic is statistically "best," the best exercise is the one the patient actually *does*.
+  - *Script:* "If you find walking too painful, **Mind-Body exercises** (Tai Chi) are a powerful alternative (Rank 2) that can improve your function without the repetitive impact of walking."
+
+- **Long-Term Pain Management:**
+  - *Finding:* For *long-term* follow-up (24+ weeks), **Flexibility Exercise** showed potential for large reductions in pain, though certainty was lower.
+  - *Action:* Don't ignore stretching. It may play a bigger role in long-term comfort than acute relief.
+
+=====================================================================
+===   END OF SOURCE 2  |  START OF SOURCE 3   ===
+=====================================================================
+
+[METADATA]
+Condition: Knee Osteoarthritis (KOA)
+Source: Øiestad et al. (2023) - BMC Musculoskeletal Disorders
+DOI: 10.1186/s12891-023-06831-x
+Topic: Strength vs. Aerobic Exercise (1-Year Follow-up)
+Key Finding: No significant difference in Quality of Life at 1 year vs. Usual Care (Benefits fade without maintenance).
+Economic Finding: Both interventions are cost-effective from a societal perspective.
+
+# SOURCE: Efficacy of Strength vs. Aerobic Exercise (Øiestad et al., 2023)
+## THE "FADING EFFECT" (Time-Dependent Results)
+- **Short-Term (4 Months):**
+  - *Result:* Both the **Strength Group** and **Aerobic Group** (Cycling) showed significantly better physical traits (Quadriceps strength & VO2peak) compared to Usual Care immediately after the 12-week program.
+- **Long-Term (1 Year):**
+  - *Result:* The specific benefits on **Quality of Life (KOOS QoL)** were *not* statistically significant compared to Usual Care at the 1-year mark.
+  - *Clinical Lesson:* A 12-week "dose" of exercise is not a permanent cure. The effects wear off if the patient stops.
+
+## STRENGTH VS. AEROBIC (Head-to-Head)
+- **The Verdict:** Neither modality was superior to the other for long-term Quality of Life.
+- **Strength Protocol:** 12 weeks of leg press, knee extension, hamstring curls.
+- **Aerobic Protocol:** 12 weeks of stationary cycling (moderate intensity).
+- **Implication:** Since outcomes are similar, patient preference (Adherence) is the deciding factor.
+
+## THE HIDDEN VALUE (Cost-Effectiveness)
+- **The Economic Finding:** Even though clinical scores converged at 1 year, both exercise programs were deemed **Cost-Effective** from a societal perspective compared to Usual Care.
+- **Why?** Likely due to reduced healthcare utilization or subtle improvements in productivity that don't show up in a simple pain score.
+
+## CLINICAL TAKEAWAYS FOR CHATBOT
+- **The "Maintenance" Rule:**
+  - *Scenario:* User asks "Can I stop exercising after my pain goes away?"
+  - *Bot Response:* "This 2023 study shows that stopping after 12 weeks causes the benefits to fade by the 1-year mark. To keep the Quality of Life gains, you must transition to a maintenance program."
+- **The "Preference" Rule:**
+  - *Scenario:* User asks "Is lifting weights better than cycling?"
+  - *Bot Response:* "Direct head-to-head research (Øiestad 2023) shows they are equally effective for long-term quality of life. The 'best' one is the one you will actually keep doing for more than 12 weeks."
