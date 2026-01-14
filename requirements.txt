@@ -23,3 +23,6 @@ pandas
 pydantic
 python-dotenv
 pypdf
+
+#Web UI
+streamlit
