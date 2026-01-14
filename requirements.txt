@@ -1,0 +1,25 @@
+#Main frameworks
+langchain
+langchain-core
+langchain-community
+langgraph
+
+#LLM Provider 
+langchain-google-genai
+
+#Embedings
+sentence-transformers
+langchain-huggingface
+
+#VectorDB
+pinecone-client
+langchain-pinecone
+
+#Web Search 
+tavily-python
+
+#Utilities
+pandas
+pydantic
+python-dotenv
+pypdf

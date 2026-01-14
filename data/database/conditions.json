@@ -1,0 +1,92 @@
+{
+  "health_conditions": [
+    {
+      "id": "lowerback_pain",
+      "display_name": "Lower Back Pain (Disc Herniation)",
+      "restrictions": {
+        "forbidden_movements": ["spinal_flexion", "heavy_compressive_loading", "high_impact"],
+        "avoid_exercises": ["Sit-ups", "Conventional Deadlift", "Barbell Squat"],
+        "intensity_limit": "Low (RPE 3-4)"
+      },
+      "reasoning_logic": "Prioritize 'Spinal Decompression' and 'Neutral Spine' movements. Filter research papers for 'Mcgill Big 3'.",
+      "red_flags": ["Numbness in legs", "Loss of bladder control", "Sharp shooting pain"]
+    },
+    {
+      "id": "type_2_diabetes",
+      "display_name": "Type 2 Diabetes",
+      "restrictions": {
+        "forbidden_movements": ["None"],
+        "avoid_exercises": ["High-intensity sprints if unmonitored"],
+        "intensity_limit": "Moderate (150-300 min/week)"
+      },
+      "reasoning_logic": "Focus on 'Aerobic + Resistance' synergy for glycemic control. Check for 'Hypoglycemia' awareness.",
+      "red_flags": ["Dizziness", "Excessive sweating", "Confusion during workout"]
+    },
+    {
+      "id": "hypertension",
+      "display_name": "Hypertension (High Blood Pressure)",
+      "restrictions": {
+        "forbidden_movements": ["valsalva_maneuver (breath holding)", "heavy_isometric_holds"],
+        "avoid_exercises": ["1-Rep Max lifting", "Head-below-heart positions"],
+        "intensity_limit": "Moderate (RPE 4-6)"
+      },
+      "reasoning_logic": "Avoid sudden intensity spikes. Prioritize steady-state rhythmic movements.",
+      "red_flags": ["Chest pain", "Headache", "Blurred vision"]
+    },
+    {
+      "id": "obesity",
+      "display_name": "Obesity",
+      "restrictions": {
+        "forbidden_movements": ["high_impact_jumping"],
+        "avoid_exercises": ["Box jumps", "Running on hard surfaces"],
+        "intensity_limit": "Gradual progression (45-60 min sessions)"
+      },
+      "reasoning_logic": "Prioritize 'Non-Weight Bearing' (cycling/swimming) to protect joints. Focus on consistency over intensity.",
+      "red_flags": ["Severe joint pain", "Shortness of breath at rest"]
+    },
+    {
+      "id": "beginner",
+      "display_name": "Beginner Status",
+      "restrictions": {
+        "forbidden_movements": ["complex_olympic_lifts", "advanced_plyometrics"],
+        "avoid_exercises": ["Snatch", "Kipping Pullups"],
+        "intensity_limit": "Low (Focus on technique)"
+      },
+      "reasoning_logic": "Limit volume (Sets/Reps) for the first 4 weeks. Use machines for guided range of motion.",
+      "red_flags": ["Extreme muscle soreness preventing movement"]
+    },
+    {
+      "id": "knee_pain",
+      "display_name": "Knee Pain (General/Osteoarthritis)",
+      "restrictions": {
+        "forbidden_movements": ["deep_knee_flexion_under_load", "pivoting"],
+        "avoid_exercises": ["Deep Lunges", "Deep Squats", "Running"],
+        "intensity_limit": "Low to Moderate"
+      },
+      "reasoning_logic": "Focus on 'Quadriceps Strengthening' (Isometrics) and 'Non-impact' cardio.",
+      "red_flags": ["Swelling", "Locking of the joint"]
+    },
+    {
+  "id": "neck_pain",
+  "display_name": "Neck Pain (Cervical Strain/Disc)",
+  "restrictions": {
+    "forbidden_movements": ["extreme_cervical_extension", "rapid_head_rotation", "axial_loading_on_head"],
+    "avoid_exercises": ["Overhead Press (Heavy)", "Bridging on Head", "High-Impact Running"],
+    "intensity_limit": "Low (Focus on mobility and posture)"
+  },
+  "reasoning_logic": "Prioritize 'Deep Cervical Flexor' activation and scapular stability. Keep eyes level with the horizon to maintain a neutral cervical spine.",
+  "red_flags": ["Sharp pain radiating down the arm", "Numbness or tingling in fingers", "Dizziness or blurred vision"]
+},
+{
+  "id": "shoulder_pain",
+  "display_name": "Shoulder Pain (Impingement/Rotator Cuff)",
+  "restrictions": {
+    "forbidden_movements": ["unsupported_overhead_reaching", "extreme_internal_rotation_under_load", "behind-the-neck_movements"],
+    "avoid_exercises": ["Upright Rows", "Behind-the-Neck Lat Pulldowns", "Dips (Deep)"],
+    "intensity_limit": "Low to Moderate (Avoid painful arcs)"
+  },
+  "reasoning_logic": "Focus on 'Scapular Setting' (squeezing shoulder blades) and rotator cuff strengthening. Avoid 'impingement zones' (usually 90-120 degrees of side lifting).",
+  "red_flags": ["Night pain that prevents sleep", "Inability to lift the arm at all", "Swelling or heat in the joint"]
+}
+  ]
+}
