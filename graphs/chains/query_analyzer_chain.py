@@ -1,0 +1,51 @@
+import os
+from typing import List, Optional
+from pydantic import BaseModel, Field
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.prompts import ChatPromptTemplate
+from dotenv import load_dotenv
+
+load_dotenv()
+
+GOOGLE_API_KEY= os.getenv("GOOGLE_API_KEY")
+
+class UserProfile(BaseModel):
+    """Extracted fitness profile from user input."""
+    name: str = Field(default="User", description="The user's name if provided.")
+    conditions: List[str] = Field(
+        description="List of IDs from: [lowerback_pain, neck_pain, shoulder_pain, hypertension, type_2_diabetes, obesity, beginner, knee_pain]"
+    )
+    goal_muscle: str = Field(description="The primary muscle group they want to train (e.g., 'glutes', 'abs', 'biceps').")
+    experience_level: str = Field(default="beginner", description="beginner, intermediate, or advanced.")
+    is_medical_emergency: bool = Field(description="True if the user mentions red flags like chest pain or numbness.")
+
+llm = ChatGoogleGenerativeAI(
+    model="gemini-2.5-flash-lite",
+    google_api_key=GOOGLE_API_KEY,
+    temperature=0
+    )
+
+#Pydantic class 
+query_analyzer_chain = llm.with_structured_output(UserProfile)
+
+#Prompt Template
+QUERY_ANALYZER_PROMPT = ChatPromptTemplate.from_messages([
+    ("system", """You are a Medical Fitness Intake Specialist. 
+    Analyze the user's request and extract their profile accurately.
+    
+    CRITICAL MAPPING RULES:
+    - 'lower back', 'disc', 'spine' -> lowerback_pain
+    - 'neck', 'cervical' -> neck_pain
+    - 'shoulder', 'rotator cuff' -> shoulder_pain
+    - 'blood pressure', 'BP' -> hypertension
+    - 'sugar', 'diabetes' -> type_2_diabetes
+    - 'weight loss', 'heavy', 'overweight' -> obesity
+    - 'knee', 'acl' -> knee_pain
+    - 'new', 'start', 'beginner', 'newbie' -> beginner
+    
+    If the user mentions 'chest pain', 'numbness', or 'vision loss', set is_medical_emergency to True.
+    """),
+    ("human", "{question}")
+])
+
+query_analyzer = QUERY_ANALYZER_PROMPT | query_analyzer_chain
