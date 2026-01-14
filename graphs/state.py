@@ -11,6 +11,8 @@ class GraphState(TypedDict):
     web_search_results: str      # Data from Tavily (optional)
 
     datasource: str              # 'local_db' or 'web_search'
-    is_safe: bool                # Set by the Grader node
+    is_safe: str                 # "yes" or "no" for safety_grader
+    explanation: str             # The feedback from the grader
+    loop_count: int              # To track how many times we've retried
 
     generation: str              # Final answer given by the model

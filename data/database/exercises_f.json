@@ -8035,7 +8035,7 @@
     },
     {
         "name": "bench front squat",
-        ,
+        "primary_muscles": "quads",
         "secondary_muscles": "hamstrings, glutes, calves",
         "body_part": "upper legs",
         "equipment": "barbell",
@@ -8783,7 +8783,7 @@
         "not_suitable_for": [
             "neck_pain"
         ]
-    },,
+    },
     {
         "name": "lever shrug",
         "primary_muscles": "traps",

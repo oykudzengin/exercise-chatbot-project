@@ -3,6 +3,8 @@ import os
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_pinecone import PineconeVectorStore
 
+INDEX_NAME = "fitness-chatbot"
+
 def retriever_node(state):
     print("---NODE: RETRIEVING & FILTERING---")
     
@@ -24,7 +26,7 @@ def retriever_node(state):
 
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     vectorstore = PineconeVectorStore(
-        index_name="fitness-research", 
+        index_name=INDEX_NAME, 
         embedding=embeddings
     )
 

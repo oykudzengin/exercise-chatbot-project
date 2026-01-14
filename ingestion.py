@@ -6,7 +6,7 @@ from src.helper import load_all_documents, text_split, download_embeddings
 from dotenv import load_dotenv
 import os
 
-INDEX_NAME = "fitness-research"
+INDEX_NAME = "fitness-chatbot"
 RESEARCH_PATH = "data/knowledge_base/"
 
 load_dotenv()
