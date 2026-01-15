@@ -7993,8 +7993,8 @@
         "not_suitable_for": []
     },
     {
-        "name": "assisted prone lying quads stretch",
-        "primary_muscles": "quads",
+        "name": "assisted prone lying quadriceps stretch",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "hamstrings, glutes",
         "body_part": "upper legs",
         "equipment": "assisted",
@@ -8006,7 +8006,7 @@
     },
     {
         "name": "band single leg split squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings",
         "body_part": "upper legs",
         "equipment": "band",
@@ -8018,7 +8018,7 @@
     },
     {
         "name": "barbell clean and press",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "hamstrings, glutes, shoulders, triceps",
         "body_part": "upper legs",
         "equipment": "barbell",
@@ -8035,7 +8035,7 @@
     },
     {
         "name": "bench front squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "hamstrings, glutes, calves",
         "body_part": "upper legs",
         "equipment": "barbell",
@@ -8051,7 +8051,7 @@
     },
     {
         "name": "barbell bench squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "barbell",
@@ -8065,7 +8065,7 @@
     },
     {
         "name": "squat jerk",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves, core",
         "body_part": "upper legs",
         "equipment": "barbell",
@@ -8084,7 +8084,7 @@
     },
     {
         "name": "snatch pull",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "hamstrings, glutes, calves",
         "body_part": "upper legs",
         "equipment": "barbell",
@@ -8102,7 +8102,7 @@
     },
     {
         "name": "barbell side split squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "barbell",
@@ -8118,7 +8118,7 @@
     },
     {
         "name": "barbell single leg split squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "barbell",
@@ -8132,7 +8132,7 @@
     },
     {
         "name": "barbell wide squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "barbell",
@@ -8147,7 +8147,7 @@
     },
     {
         "name": "barbell overhead squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves, core",
         "body_part": "upper legs",
         "equipment": "barbell",
@@ -8163,7 +8163,7 @@
     },
     {
         "name": "barbell squat jump step rear lunge",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "barbell",
@@ -8178,7 +8178,7 @@
     },
     {
         "name": "chair leg extended stretch",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "body weight",
@@ -8190,7 +8190,7 @@
     },
     {
         "name": "balance board",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "calves, hamstrings, glutes",
         "body_part": "upper legs",
         "equipment": "body weight",
@@ -8202,7 +8202,7 @@
     },
     {
         "name": "sissy squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "calves, glutes",
         "body_part": "upper legs",
         "equipment": "body weight",
@@ -8216,7 +8216,7 @@
     },
     {
         "name": "split squats",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "body weight",
@@ -8230,7 +8230,7 @@
     },
     {
         "name": "squat to overhead reach",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, core",
         "body_part": "upper legs",
         "equipment": "body weight",
@@ -8245,31 +8245,31 @@
     },
     {
         "name": "all fours squad stretch",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "hamstrings, glutes",
         "body_part": "upper legs",
         "equipment": "body weight",
         "difficulty": "Beginner",
-        "description": "Start on all fours with your hands directly under your shoulders and your knees directly under your hips. Extend one leg straight back, keeping your knee bent and your foot flexed. Slowly lower your hips towards the ground, feeling a stretch in your quads. Hold this position for 20-30 seconds. Switch legs and repeat the stretch on the other side.",
+        "description": "Start on all fours with your hands directly under your shoulders and your knees directly under your hips. Extend one leg straight back, keeping your knee bent and your foot flexed. Slowly lower your hips towards the ground, feeling a stretch in your quadriceps. Hold this position for 20-30 seconds. Switch legs and repeat the stretch on the other side.",
         "risk_level": null,
         "impact": null,
         "not_suitable_for": []
     },
     {
-        "name": "lying (side) quads stretch",
-        "primary_muscles": "quads",
+        "name": "lying (side) quadriceps stretch",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "hamstrings",
         "body_part": "upper legs",
         "equipment": "body weight",
         "difficulty": "Beginner",
-        "description": "Lie on your side with your legs straight. Bend your top leg and grab your ankle or foot with your hand. Gently pull your ankle or foot towards your glutes until you feel a stretch in your quads. Hold the stretch for 20-30 seconds. Release the stretch and repeat on the other side.",
+        "description": "Lie on your side with your legs straight. Bend your top leg and grab your ankle or foot with your hand. Gently pull your ankle or foot towards your glutes until you feel a stretch in your quadriceps. Hold the stretch for 20-30 seconds. Release the stretch and repeat on the other side.",
         "risk_level": null,
         "impact": null,
         "not_suitable_for": []
     },
     {
         "name": "forward jump",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "calves, hamstrings, glutes",
         "body_part": "upper legs",
         "equipment": "body weight",
@@ -8284,7 +8284,7 @@
     },
     {
         "name": "squat on bosu ball",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "bosu ball",
@@ -8298,7 +8298,7 @@
     },
     {
         "name": "dumbbell step-up split squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "dumbbell",
@@ -8312,7 +8312,7 @@
     },
     {
         "name": "dumbbell step-up lunge",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "dumbbell",
@@ -8326,7 +8326,7 @@
     },
     {
         "name": "dumbbell single leg split squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "dumbbell",
@@ -8340,7 +8340,7 @@
     },
     {
         "name": "dumbbell goblet squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "dumbbell",
@@ -8354,7 +8354,7 @@
     },
     {
         "name": "farmers walk",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "calves, forearms, core",
         "body_part": "upper legs",
         "equipment": "dumbbell",
@@ -8368,7 +8368,7 @@
     },
     {
         "name": "lever leg extension",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "hamstrings",
         "body_part": "upper legs",
         "equipment": "leverage machine",
@@ -8382,7 +8382,7 @@
     },
     {
         "name": "lever alternate leg press",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "hamstrings, glutes",
         "body_part": "upper legs",
         "equipment": "leverage machine",
@@ -8394,7 +8394,7 @@
     },
     {
         "name": "resistance band leg extension",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "hamstrings",
         "body_part": "upper legs",
         "equipment": "resistance band",
@@ -8406,7 +8406,7 @@
     },
     {
         "name": "intermediate hip flexor and quad stretch",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "hamstrings, glutes",
         "body_part": "upper legs",
         "equipment": "rope",
@@ -8418,7 +8418,7 @@
     },
     {
         "name": "smith chair squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "smith machine",
@@ -8432,7 +8432,7 @@
     },
     {
         "name": "smith single leg split squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings",
         "body_part": "upper legs",
         "equipment": "smith machine",
@@ -8446,7 +8446,7 @@
     },
     {
         "name": "weighted sissy squat",
-        "primary_muscles": "quads",
+        "primary_muscles": "quadriceps",
         "secondary_muscles": "glutes, hamstrings, calves",
         "body_part": "upper legs",
         "equipment": "weighted",

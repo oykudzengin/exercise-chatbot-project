@@ -12,6 +12,7 @@ def retriever_node(state):
     profile = state.get("user_profile", {})
     conditions = profile.get("conditions", [])
     goals = profile.get("goals", [])
+    print(f"DEBUG: AI extracted goals: {goals}") #debugging print line
 
 
     json_path = os.path.join("data", "database", "exercises_f.json")
@@ -24,7 +25,11 @@ def retriever_node(state):
         primary = ex.get("primary_muscles", "").lower()
         secondary = ex.get("secondary_muscles", "").lower()
         
-        match_found = any(g.lower() in primary or g.lower() in secondary for g in goals)
+        match_found = any(
+            g.lower() in primary or primary in g.lower() or 
+            g.lower() in secondary or secondary in g.lower() 
+            for g in goals
+        )
         if match_found:
             is_unsafe = any(cond in ex.get("not_suitable_for", []) for cond in conditions)
             if not is_unsafe:

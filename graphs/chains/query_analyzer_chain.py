@@ -50,12 +50,13 @@ QUERY_ANALYZER_PROMPT = ChatPromptTemplate.from_messages([
     - If the user asks for a workout, exercise, or routine: intent = 'workout_request'
     - If the user asks a general question or follows up: intent = 'general_chat'
      
-     GOAL EXTRACTION (Populate the 'goals' list):
-    - If specific muscles are mentioned (e.g. "biceps"), add them to the list.
-    - 'legs' or 'lower body' -> ['quads', 'hamstrings', 'glutes', 'calves']
-    - 'upper body' -> ['chest', 'back', 'shoulders', 'arms']
-    - 'core' or 'abs' -> ['abs']
-    - If no muscles are mentioned or it's a greeting, return an empty list [].
+    GOAL EXTRACTION (Populate the 'goals' list):
+        - Use these exact terms to match the database: 
+        'quadriceps', 'hamstrings', 'glutes', 'calves', 'abductors', 'adductors', 'abs', 'chest', 'back', 'shoulders', 'biceps', 'triceps', 'forearms'.
+        - 'legs' or 'lower body' -> ['quadriceps', 'hamstrings', 'glutes', 'calves']
+        - 'upper body' -> ['chest', 'back', 'shoulders', 'biceps', 'triceps']
+        - 'core' -> ['abs']
+        - If no muscles are mentioned or it's a greeting, return an empty list [].
 
     WORKOUT TYPE:
     - Set 'workout_type' to 'full_body' if they want to train everything.
