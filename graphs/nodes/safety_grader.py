@@ -17,7 +17,7 @@ def safety_grader_node(state):
     generation = state.get("generation", "")
     safe_exercises = state.get("safe_exercises", [])
     conditions = state.get("user_profile", {}).get("conditions", [])
-    truncated_research = state.get("research_context", "")[:3000]
+    truncated_research = state.get("research_context", "")[:2000]
 
     safety_lookup = "\n".join([
         f"{ex['name']}: not suitable for {ex.get('not_suitable_for', [])}" 
