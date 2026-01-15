@@ -1,9 +1,16 @@
-from typing import List, TypedDict, Optional
+from typing import List, TypedDict, Optional, Annotated
+from langchain_core.messages import BaseMessage
+import operator
 
 class GraphState(TypedDict):
     """Represents the state of our graph"""
-    
-    question: str              # User's input question
+
+    #we now have messages instead of the question
+    #question: str              # User's input question
+
+    #new messages will be appended to the list
+    messages: Annotated[List[BaseMessage], operator.add]
+
     user_profile: Optional[dict] # Extracted user profile
     
     safe_exercises: List[dict]   # Filtered list from JSON

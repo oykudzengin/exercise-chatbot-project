@@ -2949,7 +2949,7 @@
     },
     {
         "name": "band shoulder press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "band",
@@ -2961,7 +2961,7 @@
     },
     {
         "name": "band y-raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, rhomboids",
         "body_part": "shoulders",
         "equipment": "band",
@@ -2973,7 +2973,7 @@
     },
     {
         "name": "band front lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, upper back",
         "body_part": "shoulders",
         "equipment": "band",
@@ -2985,7 +2985,7 @@
     },
     {
         "name": "band front raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "band",
@@ -2997,7 +2997,7 @@
     },
     {
         "name": "band twisting overhead press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "band",
@@ -3009,7 +3009,7 @@
     },
     {
         "name": "band standing rear delt row",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids, biceps",
         "body_part": "shoulders",
         "equipment": "band",
@@ -3021,7 +3021,7 @@
     },
     {
         "name": "band reverse fly",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "upper back, trapezius",
         "body_part": "shoulders",
         "equipment": "band",
@@ -3033,7 +3033,7 @@
     },
     {
         "name": "standing behind neck press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3048,7 +3048,7 @@
     },
     {
         "name": "landmine lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, upper back",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3062,7 +3062,7 @@
     },
     {
         "name": "barbell standing overhead press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3078,7 +3078,7 @@
     },
     {
         "name": "barbell standing close grip military press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3094,7 +3094,7 @@
     },
     {
         "name": "barbell front raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "biceps, triceps",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3108,7 +3108,7 @@
     },
     {
         "name": "barbell upright row",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, biceps",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3122,7 +3122,7 @@
     },
     {
         "name": "barbell seated overhead press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3137,7 +3137,7 @@
     },
     {
         "name": "barbell thruster",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "quadriceps, glutes, hamstrings, core",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3153,7 +3153,7 @@
     },
     {
         "name": "barbell standing wide military press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3169,7 +3169,7 @@
     },
     {
         "name": "barbell seated behind head military press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3183,7 +3183,7 @@
     },
     {
         "name": "barbell skier",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3199,7 +3199,7 @@
     },
     {
         "name": "barbell rear delt row",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids, biceps",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3213,7 +3213,7 @@
     },
     {
         "name": "barbell one arm snatch",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, forearms, core",
         "body_part": "shoulders",
         "equipment": "barbell",
@@ -3231,7 +3231,7 @@
     },
     {
         "name": "rear deltoid stretch",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids",
         "body_part": "shoulders",
         "equipment": "body weight",
@@ -3243,7 +3243,7 @@
     },
     {
         "name": "cable lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, triceps",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3257,7 +3257,7 @@
     },
     {
         "name": "cable one arm lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, triceps",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3271,7 +3271,7 @@
     },
     {
         "name": "cable seated rear lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, rhomboids",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3285,7 +3285,7 @@
     },
     {
         "name": "cable seated shoulder internal rotation",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "rotator cuff, triceps",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3297,7 +3297,7 @@
     },
     {
         "name": "cable shoulder press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3312,7 +3312,7 @@
     },
     {
         "name": "cable standing cross-over high reverse fly",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids, rear deltoids",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3324,7 +3324,7 @@
     },
     {
         "name": "facepulls",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids, biceps",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3338,7 +3338,7 @@
     },
     {
         "name": "cable standing shoulder external rotation",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "rotator cuff, trapezius",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3353,7 +3353,7 @@
     },
     {
         "name": "cable supine reverse fly",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3368,7 +3368,7 @@
     },
     {
         "name": "cable upright row",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, biceps",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3382,7 +3382,7 @@
     },
     {
         "name": "cable kneeling rear delt row (with rope)  ",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids, biceps",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3394,7 +3394,7 @@
     },
     {
         "name": "cable alternate shoulder press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3409,7 +3409,7 @@
     },
     {
         "name": "cable cross-over revers fly",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "rhomboids, trapezius",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3423,7 +3423,7 @@
     },
     {
         "name": "cable front raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, forearms",
         "body_part": "shoulders",
         "equipment": "cable",
@@ -3437,7 +3437,7 @@
     },
     {
         "name": "dumbbell w-press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, chest",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3451,7 +3451,7 @@
     },
     {
         "name": "dumbbell lying external shoulder rotation",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "rotator cuff, triceps",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3463,7 +3463,7 @@
     },
     {
         "name": "dumbbell incline raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, triceps",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3475,7 +3475,7 @@
     },
     {
         "name": "dumbbell incline rear lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, rhomboids",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3489,7 +3489,7 @@
     },
     {
         "name": "dumbbell incline t-raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, rhomboids",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3501,7 +3501,7 @@
     },
     {
         "name": "dumbbell lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3515,7 +3515,7 @@
     },
     {
         "name": "dumbbell lateral to front raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, biceps",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3529,7 +3529,7 @@
     },
     {
         "name": "dumbbell upright shoulder external rotation",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "rotator cuff, trapezius",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3541,7 +3541,7 @@
     },
     {
         "name": "dumbbell lying rear lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, rhomboids",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3555,7 +3555,7 @@
     },
     {
         "name": "dumbbell upright row",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, biceps",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3569,7 +3569,7 @@
     },
     {
         "name": "dumbbell standing around world",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, forearms",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3583,7 +3583,7 @@
     },
     {
         "name": "dumbbell scott press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, chest",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3595,7 +3595,7 @@
     },
     {
         "name": "dumbbell standing alternate raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, forearms",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3607,7 +3607,7 @@
     },
     {
         "name": "dumbbell standing alternate overhead press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3622,7 +3622,7 @@
     },
     {
         "name": "dumbbell seated alternate front raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, biceps",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3634,7 +3634,7 @@
     },
     {
         "name": "dumbbell seated bent arm lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3648,7 +3648,7 @@
     },
     {
         "name": "dumbbell single arm overhead carry",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, core",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3662,7 +3662,7 @@
     },
     {
         "name": "dumbbell side lying one hand raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3674,7 +3674,7 @@
     },
     {
         "name": "dumbbell seated shoulder press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3689,7 +3689,7 @@
     },
     {
         "name": "dumbbell seated front raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, biceps",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3701,7 +3701,7 @@
     },
     {
         "name": "dumbbell seated lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, upper back",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3715,7 +3715,7 @@
     },
     {
         "name": "dumbbell reverse fly",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3727,7 +3727,7 @@
     },
     {
         "name": "dumbbell rear lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, rhomboids",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3741,7 +3741,7 @@
     },
     {
         "name": "dumbbell one arm shoulder press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3756,7 +3756,7 @@
     },
     {
         "name": "dumbbell standing overhead press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3771,7 +3771,7 @@
     },
     {
         "name": "dumbbell upright row (back pov)",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, biceps",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3785,7 +3785,7 @@
     },
     {
         "name": "dumbbell push press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3799,7 +3799,7 @@
     },
     {
         "name": "dumbbell raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, rhomboids",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3811,7 +3811,7 @@
     },
     {
         "name": "dumbbell rear delt raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3823,7 +3823,7 @@
     },
     {
         "name": "dumbbell rear fly",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3835,7 +3835,7 @@
     },
     {
         "name": "dumbbell front raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "biceps, trapezius",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3847,7 +3847,7 @@
     },
     {
         "name": "dumbbell bench seated press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, chest",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3859,7 +3859,7 @@
     },
     {
         "name": "dumbbell arnold press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper chest",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3871,7 +3871,7 @@
     },
     {
         "name": "dumbbell alternate side press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3885,7 +3885,7 @@
     },
     {
         "name": "dumbbell cuban press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "dumbbell",
@@ -3899,7 +3899,7 @@
     },
     {
         "name": "kettlebell double jerk",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -3914,7 +3914,7 @@
     },
     {
         "name": "kettlebell arnold press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -3928,7 +3928,7 @@
     },
     {
         "name": "kettlebell alternating press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -3942,7 +3942,7 @@
     },
     {
         "name": "kettlebell one arm jerk",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -3956,7 +3956,7 @@
     },
     {
         "name": "kettlebell thruster",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "quadriceps, glutes, core",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -3971,7 +3971,7 @@
     },
     {
         "name": "kettlebell two arm clean",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, forearms",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -3987,7 +3987,7 @@
     },
     {
         "name": "kettlebell two arm military press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -4001,7 +4001,7 @@
     },
     {
         "name": "kettlebell seesaw press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -4015,7 +4015,7 @@
     },
     {
         "name": "kettlebell double push press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -4031,7 +4031,7 @@
     },
     {
         "name": "kettlebell double snatch",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, forearms, core",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -4049,7 +4049,7 @@
     },
     {
         "name": "kettlebell one arm clean and jerk",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -4064,7 +4064,7 @@
     },
     {
         "name": "kettlebell one arm push press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -4079,7 +4079,7 @@
     },
     {
         "name": "kettlebell one arm snatch",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, forearms, core",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -4097,7 +4097,7 @@
     },
     {
         "name": "kettlebell seated press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, core",
         "body_part": "shoulders",
         "equipment": "kettlebell",
@@ -4111,7 +4111,7 @@
     },
     {
         "name": "lever shoulder press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, chest",
         "body_part": "shoulders",
         "equipment": "leverage machine",
@@ -4126,7 +4126,7 @@
     },
     {
         "name": "lever seated reverse fly",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids",
         "body_part": "shoulders",
         "equipment": "leverage machine",
@@ -4141,7 +4141,7 @@
     },
     {
         "name": "lever one arm shoulder press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "leverage machine",
@@ -4156,7 +4156,7 @@
     },
     {
         "name": "lever military press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper chest",
         "body_part": "shoulders",
         "equipment": "leverage machine",
@@ -4170,7 +4170,7 @@
     },
     {
         "name": "lever lateral raise",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, upper back",
         "body_part": "shoulders",
         "equipment": "leverage machine",
@@ -4184,7 +4184,7 @@
     },
     {
         "name": "resistance band seated shoulder press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "resistance band",
@@ -4199,7 +4199,7 @@
     },
     {
         "name": "smith standing behind head military press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "smith machine",
@@ -4213,7 +4213,7 @@
     },
     {
         "name": "smith shoulder press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "smith machine",
@@ -4228,7 +4228,7 @@
     },
     {
         "name": "smith standing military press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "smith machine",
@@ -4242,7 +4242,7 @@
     },
     {
         "name": "smith seated shoulder press",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "smith machine",
@@ -4257,7 +4257,7 @@
     },
     {
         "name": "smith rear delt row",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "trapezius, rhomboids, biceps",
         "body_part": "shoulders",
         "equipment": "smith machine",
@@ -4272,7 +4272,7 @@
     },
     {
         "name": "smith upright row",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "traps, biceps",
         "body_part": "shoulders",
         "equipment": "smith machine",
@@ -4287,7 +4287,7 @@
     },
     {
         "name": "weighted round arm",
-        "primary_muscles": "delts",
+        "primary_muscles": "shoulders",
         "secondary_muscles": "triceps, upper back",
         "body_part": "shoulders",
         "equipment": "weighted",
@@ -6979,7 +6979,7 @@
     },
     {
         "name": "assisted seated pectoralis major stretch with stability ball",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "assisted",
@@ -6991,7 +6991,7 @@
     },
     {
         "name": "behind head chest stretch",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "assisted",
@@ -7003,7 +7003,7 @@
     },
     {
         "name": "band bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "band",
@@ -7015,7 +7015,7 @@
     },
     {
         "name": "band one arm twisting chest press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "band",
@@ -7027,7 +7027,7 @@
     },
     {
         "name": "barbell decline pullover",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "barbell",
@@ -7042,7 +7042,7 @@
     },
     {
         "name": "barbell decline wide-grip press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "barbell",
@@ -7058,7 +7058,7 @@
     },
     {
         "name": "barbell bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "barbell",
@@ -7072,7 +7072,7 @@
     },
     {
         "name": "barbell decline bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "barbell",
@@ -7086,7 +7086,7 @@
     },
     {
         "name": "barbell incline bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "barbell",
@@ -7100,7 +7100,7 @@
     },
     {
         "name": "floor fly (with barbell)",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "deltoids, triceps",
         "body_part": "chest",
         "equipment": "barbell",
@@ -7114,7 +7114,7 @@
     },
     {
         "name": "barbell wide grip bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "barbell",
@@ -7128,7 +7128,7 @@
     },
     {
         "name": "korean dips",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7143,7 +7143,7 @@
     },
     {
         "name": "kneeling push-up  ",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7155,7 +7155,7 @@
     },
     {
         "name": "single arm push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders, core",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7170,7 +7170,7 @@
     },
     {
         "name": "shoulder tap push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, core",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7182,7 +7182,7 @@
     },
     {
         "name": "wide hand push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7194,7 +7194,7 @@
     },
     {
         "name": "wide-grip chest dip on high parallel bars",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7209,7 +7209,7 @@
     },
     {
         "name": "superman push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "core, shoulders",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7227,7 +7227,7 @@
     },
     {
         "name": "suspended push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders, core",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7239,7 +7239,7 @@
     },
     {
         "name": "plyo push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders, core",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7258,7 +7258,7 @@
     },
     {
         "name": "archer push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders, core",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7272,7 +7272,7 @@
     },
     {
         "name": "push-up (wall)",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, deltoids",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7284,7 +7284,7 @@
     },
     {
         "name": "push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, deltoids, core",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7296,7 +7296,7 @@
     },
     {
         "name": "chest dip on straight bar",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7310,7 +7310,7 @@
     },
     {
         "name": "clap push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7325,7 +7325,7 @@
     },
     {
         "name": "clock push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders, core",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7337,7 +7337,7 @@
     },
     {
         "name": "chest dip",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7351,7 +7351,7 @@
     },
     {
         "name": "full planche push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps, core",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7368,7 +7368,7 @@
     },
     {
         "name": "chest and front of shoulder stretch",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "deltoids",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7380,7 +7380,7 @@
     },
     {
         "name": "decline push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7395,7 +7395,7 @@
     },
     {
         "name": "dynamic chest stretch  ",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7407,7 +7407,7 @@
     },
     {
         "name": "isometric wipers",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps, core",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7421,7 +7421,7 @@
     },
     {
         "name": "incline push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7433,7 +7433,7 @@
     },
     {
         "name": "incline push-up (on box)",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "body weight",
@@ -7445,7 +7445,7 @@
     },
     {
         "name": "push-up on bosu ball",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders, core",
         "body_part": "chest",
         "equipment": "bosu ball",
@@ -7457,7 +7457,7 @@
     },
     {
         "name": "cable cross-over variation",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "deltoids, triceps",
         "body_part": "chest",
         "equipment": "cable",
@@ -7471,7 +7471,7 @@
     },
     {
         "name": "cable bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "cable",
@@ -7483,7 +7483,7 @@
     },
     {
         "name": "cable standing up straight crossovers",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "deltoids, triceps",
         "body_part": "chest",
         "equipment": "cable",
@@ -7497,7 +7497,7 @@
     },
     {
         "name": "cable standing fly",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "deltoids, triceps",
         "body_part": "chest",
         "equipment": "cable",
@@ -7509,7 +7509,7 @@
     },
     {
         "name": "cable seated chest press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "cable",
@@ -7521,7 +7521,7 @@
     },
     {
         "name": "cable decline fly",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "cable",
@@ -7533,7 +7533,7 @@
     },
     {
         "name": "cable incline fly",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "deltoids, triceps",
         "body_part": "chest",
         "equipment": "cable",
@@ -7545,7 +7545,7 @@
     },
     {
         "name": "cable upper chest crossovers",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "deltoids, triceps",
         "body_part": "chest",
         "equipment": "cable",
@@ -7557,7 +7557,7 @@
     },
     {
         "name": "cable low fly",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "deltoids, triceps",
         "body_part": "chest",
         "equipment": "cable",
@@ -7569,7 +7569,7 @@
     },
     {
         "name": "dumbbell around pullover",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, latissimus dorsi",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7584,7 +7584,7 @@
     },
     {
         "name": "dumbbell decline fly",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7598,7 +7598,7 @@
     },
     {
         "name": "dumbbell incline hammer press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7612,7 +7612,7 @@
     },
     {
         "name": "dumbbell decline hammer press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7627,7 +7627,7 @@
     },
     {
         "name": "dumbbell bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7639,7 +7639,7 @@
     },
     {
         "name": "dumbbell lying hammer press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7651,7 +7651,7 @@
     },
     {
         "name": "dumbbell pullover",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "latissimus dorsi, triceps",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7666,7 +7666,7 @@
     },
     {
         "name": "dumbbell straight arm pullover",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "latissimus dorsi, triceps",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7680,7 +7680,7 @@
     },
     {
         "name": "dumbbell decline bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7694,7 +7694,7 @@
     },
     {
         "name": "dumbbell incline fly",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7709,7 +7709,7 @@
     },
     {
         "name": "dumbbell fly",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7721,7 +7721,7 @@
     },
     {
         "name": "dumbbell incline bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7735,7 +7735,7 @@
     },
     {
         "name": "dumbbell incline alternate press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "dumbbell",
@@ -7749,7 +7749,7 @@
     },
     {
         "name": "kettlebell alternating press on floor",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "kettlebell",
@@ -7761,7 +7761,7 @@
     },
     {
         "name": "kettlebell plyo push-up",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders, core",
         "body_part": "chest",
         "equipment": "kettlebell",
@@ -7778,7 +7778,7 @@
     },
     {
         "name": "lever chest press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "leverage machine",
@@ -7790,7 +7790,7 @@
     },
     {
         "name": "lever decline chest press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "leverage machine",
@@ -7804,7 +7804,7 @@
     },
     {
         "name": "lever seated fly",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "deltoids, trapezius",
         "body_part": "chest",
         "equipment": "leverage machine",
@@ -7816,7 +7816,7 @@
     },
     {
         "name": "lever incline chest press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "leverage machine",
@@ -7828,7 +7828,7 @@
     },
     {
         "name": "assisted chest dip (kneeling)",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "leverage machine",
@@ -7842,7 +7842,7 @@
     },
     {
         "name": "medicine ball chest pass",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "medicine ball",
@@ -7854,7 +7854,7 @@
     },
     {
         "name": "push-up medicine ball",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders, core",
         "body_part": "chest",
         "equipment": "medicine ball",
@@ -7866,7 +7866,7 @@
     },
     {
         "name": "resistance band seated chest press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "resistance band",
@@ -7878,7 +7878,7 @@
     },
     {
         "name": "roller seated shoulder flexor depresor retractor",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "deltoids, triceps",
         "body_part": "chest",
         "equipment": "roller",
@@ -7890,7 +7890,7 @@
     },
     {
         "name": "roller seated single leg shoulder flexor depresor retractor",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "deltoids, triceps",
         "body_part": "chest",
         "equipment": "roller",
@@ -7902,7 +7902,7 @@
     },
     {
         "name": "smith incline bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "smith machine",
@@ -7916,7 +7916,7 @@
     },
     {
         "name": "smith decline bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "smith machine",
@@ -7931,7 +7931,7 @@
     },
     {
         "name": "smith bench press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "smith machine",
@@ -7943,7 +7943,7 @@
     },
     {
         "name": "push-up (on stability ball)",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders, core",
         "body_part": "chest",
         "equipment": "stability ball",
@@ -7955,7 +7955,7 @@
     },
     {
         "name": "chest stretch with exercise ball",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "stability ball",
@@ -7967,7 +7967,7 @@
     },
     {
         "name": "weighted straight bar dip",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "triceps, shoulders",
         "body_part": "chest",
         "equipment": "weighted",
@@ -7982,7 +7982,7 @@
     },
     {
         "name": "weighted svend press",
-        "primary_muscles": "pectorals",
+        "primary_muscles": "chest",
         "secondary_muscles": "shoulders, triceps",
         "body_part": "chest",
         "equipment": "weighted",

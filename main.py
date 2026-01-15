@@ -9,6 +9,8 @@ from graphs.nodes.web_search import web_search
 from graphs.nodes.generator import generator_node
 from graphs.nodes.safety_grader import safety_grader_node
 
+from langgraph.checkpoint.memory import InMemorySaver
+
 load_dotenv()
 
 def route_question(state: GraphState):
@@ -18,6 +20,9 @@ def route_question(state: GraphState):
     if state.get("datasource") == "web_search":
         print("---ROUTING TO WEB SEARCH---")
         return "web_search"
+    elif state.get("datasource") == "none":
+        print("---ROUTING TO GENERAL CHAT---")
+        return "just_chat"
     else:
         print("---ROUTING TO LOCAL RETRIEVER---")
         return "retrieve_local"
@@ -34,7 +39,21 @@ def check_safety_results(state: GraphState):
     print(f"SAFETY CHECK FAILED: {state.get('explanation')}. Retrying...")
     return "retry"
 
+def route_after_generation(state: GraphState):
+    """
+    Decide whether to grade the output or just finish.
+    """
+    # If the intent was a greeting or general chat, just stop.
+    # We access this from the user_profile we stored in query_analysis.
+    user_profile = state.get("user_profile", {})
+    if user_profile.get("intent") in ["greeting", "general_chat"]:
+        return "finish"
+    
+    # Otherwise, it's a workout—run it by the doctor (grader)
+    return "grade"
+
 workflow = StateGraph(GraphState)
+memory = InMemorySaver()
 
 #addin the nodes created
 workflow.add_node("analyze_query", query_analyzer_node)
@@ -51,14 +70,23 @@ workflow.add_conditional_edges(
     route_question,
     {
         "retrieve_local": "retrieve_local",
-        "web_search": "generate_workout" # Or your web search node
+        "web_search": "web_search",
+        "just_chat": "generate_workout"
     }
 )
 
+workflow.add_edge("web_search", "generate_workout")
 workflow.add_edge("retrieve_local", "generate_workout")
 
 # The Safety Loop: Generator -> Grader -> (Finish or Back to Generator)
-workflow.add_edge("generate_workout", "safety_grader")
+workflow.add_conditional_edges(
+    "generate_workout",
+    route_after_generation,
+    {
+        "finish": END,
+        "grade": "safety_grader"
+    }
+)
 
 workflow.add_conditional_edges(
     "safety_grader",
@@ -70,4 +98,4 @@ workflow.add_conditional_edges(
 )
 
 # Compile
-app = workflow.compile()
+app = workflow.compile(checkpointer=memory)

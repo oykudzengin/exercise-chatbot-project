@@ -9,20 +9,27 @@ def retriever_node(state):
     print("---NODE: RETRIEVING & FILTERING---")
     
     #Get input from State
-    profile = state["user_profile"]
+    profile = state.get("user_profile", {})
     conditions = profile.get("conditions", [])
-    target_muscle = profile.get("goal", "").lower()
+    goals = profile.get("goals", [])
+
 
     json_path = os.path.join("data", "database", "exercises_f.json")
     with open(json_path, 'r', encoding='utf-8') as f:
         all_exercises = json.load(f)
 
     #muscle must match and no unsuitable condition is allowed
-    safe_list = [
-        ex for ex in all_exercises 
-        if target_muscle in [m.lower() for m in ex.get('primary_muscles', [])]
-        and not any(risk in ex.get('not_suitable_for', []) for risk in conditions)
-    ]
+    safe_list = []
+    for ex in all_exercises:
+        primary = ex.get("primary_muscles", "").lower()
+        secondary = ex.get("secondary_muscles", "").lower()
+        
+        match_found = any(g.lower() in primary or g.lower() in secondary for g in goals)
+        if match_found:
+            is_unsafe = any(cond in ex.get("not_suitable_for", []) for cond in conditions)
+            if not is_unsafe:
+                safe_list.append(ex)
+
 
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     vectorstore = PineconeVectorStore(
@@ -35,7 +42,7 @@ def retriever_node(state):
     research_text = "\n\n".join([doc.page_content for doc in docs])
 
     return {
-        "safe_exercises": safe_list[:5], 
+        "safe_exercises": safe_list[:12],
         "research_context": research_text
     }
 
