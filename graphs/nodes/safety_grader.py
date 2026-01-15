@@ -3,6 +3,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 import os
 
+GRADER_API_KEY = os.getenv("GRADER_API_KEY")
 class SafetyScore(BaseModel):
     binary_score: str = Field(description="Workout is safe? 'yes' or 'no'")
     reason: str = Field(description="Detailed explanation of why it is unsafe, or 'Passed' if safe.")
@@ -13,7 +14,7 @@ def safety_grader_node(state):
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.5-flash-lite", 
         temperature=0,
-        google_api_key=os.getenv("GRADER_API_KEY") 
+        google_api_key=GRADER_API_KEY
     )
     structured_llm = llm.with_structured_output(SafetyScore)
 

@@ -22,15 +22,12 @@ def retriever_node(state):
     #muscle must match and no unsuitable condition is allowed
     safe_list = []
     for ex in all_exercises:
-        primary = ex.get("primary_muscles", "").lower()
-        secondary = ex.get("secondary_muscles", "").lower()
+        search_text = f"{ex.get('name', '')} {ex.get('primary_muscles', '')} {ex.get('secondary_muscles', '')} {ex.get('body_part', '')}".lower()
+
+                # Check if ANY of our goals appear in that text
+        is_match = any(goal.lower()[:4] in search_text for goal in goals)
         
-        match_found = any(
-            g.lower() in primary or primary in g.lower() or 
-            g.lower() in secondary or secondary in g.lower() 
-            for g in goals
-        )
-        if match_found:
+        if is_match:
             is_unsafe = any(cond in ex.get("not_suitable_for", []) for cond in conditions)
             if not is_unsafe:
                 safe_list.append(ex)

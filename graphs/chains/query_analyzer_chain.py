@@ -72,7 +72,6 @@ QUERY_ANALYZER_PROMPT = ChatPromptTemplate.from_messages([
     - 'knee', 'acl' -> knee_pain
     - 'new', 'start', 'beginner', 'newbie' -> beginner
      
-    If the input is just a greeting, leave conditions as an empty list and goal_muscle as 'none'.
     If the user mentions 'chest pain', 'numbness', or 'vision loss', set is_medical_emergency to True.
     """),
     ("human", "{question}")

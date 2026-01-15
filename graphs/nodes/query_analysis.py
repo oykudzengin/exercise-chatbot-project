@@ -23,10 +23,13 @@ def query_analyzer_node(state):
         "name": extracted_profile.name,
         "intent": extracted_profile.intent,
         "conditions": extracted_profile.conditions,
-        "goal": extracted_profile.goals,
+        "goals": extracted_profile.goals,
+        "workout_type": extracted_profile.workout_type,
         "level": extracted_profile.experience_level,
         "emergency": extracted_profile.is_medical_emergency
     }
+
+    print(f"DEBUG: Query Analyzer produced dict: {profile_dict}") #debug line
 
     #if we have an existing user profile
     existing_profile = state.get("user_profile")
@@ -37,6 +40,9 @@ def query_analyzer_node(state):
     elif not extracted_profile.conditions and "workout" not in last_user_message.lower() and not existing_profile:
         datasource = "web_search"
     else:
+        datasource = "local_db"
+
+    if "workout" in last_user_message.lower() or extracted_profile.goals:
         datasource = "local_db"
 
     #update the graph state

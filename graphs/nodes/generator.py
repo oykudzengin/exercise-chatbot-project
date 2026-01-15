@@ -2,6 +2,9 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.messages import AIMessage
+import os
+
+
 
 def generator_node(state):
     print("---NODE: GENERATING WORKOUT PLAN---")
@@ -22,26 +25,27 @@ def generator_node(state):
     
     #Prompt
     prompt = ChatPromptTemplate.from_messages([
-        ("system", f"""You are an Elite Medical Fitness Coach. I will provide you with a list of 'Safe Exercises' from our database.
-        If the list has exercises, prioritize them.
-        If the list is empty, use your internal knowledge to suggest the safest possible bodyweight exercises for the user's condition. Never tell the user 'no exercises were provided'; simply provide the best possible advice.
-        Use the Research Context to explain WHY these exercises are safe and what to avoid.{safety_msg}
+        ("system", """You are a Medical Fitness Coach. You must synthesize the provided data to guide the user.
+            DATA SOURCES PROVIDED:
+            1. SAFE EXERCISES: {exercises} (The only exercises you are allowed to recommend).
+            2. RESEARCH CONTEXT: {research} (Clinical guidelines from our medical PDFs).
+            3. USER PROFILE: {user} (The patient's current status).
 
-        If no 'Safe Exercises' are provided, it means the user is just greeting you or asking a general question. Respond naturally to their message and encourage them to share their fitness goals or any physical conditions so you can create a safe plan for them.
-        
-        Format:
-        - Brief encouragement
-        - Safety Precautions (based on research)
-        - The Workout (list exercises, sets, and reps)
-        - 'When to Stop' red flags.
-
-        Refer to the user's history to see if they are asking for changes to a previous plan."""),
+            INSTRUCTIONS:
+            - INTEGRATION: Cross-reference the USER PROFILE with the RESEARCH CONTEXT. If the research mentions precautions for the user's specific conditions (e.g., hypertension, lower back pain), apply those filters to the exercise selection.
+            - COACH'S TIP: Provide a 'clinical' tip for every exercise. Use the RESEARCH CONTEXT to explain the physiological benefit (e.g., 'Maintaining a neutral spine reduces intradiscal pressure as noted in our protocols').
+            - FORMATTING: Use Markdown tables for the workout plan.
+            - FALLBACK: If the 'SAFE EXERCISES' list is empty or matches the user's 'not_suitable_for' list, do NOT suggest random exercises. Instead, provide 3-4 'pre-habilitation' or lifestyle tips found in the RESEARCH CONTEXT."""),
         ("placeholder", "{chat_history}"),
-        ("human", "User Profile: {user}\nSafe Exercises: {exercises}\nResearch Context: {research}")
+        ("human", "User Profile: {user}\nSafe Exercises: {exercises}\nResearch Context: {research}\n{safety_feedback}")
     ])
     
+    GENERATOR_GOOGLE_API_KEY = os.getenv("GENERATOR_GOOGLE_API_KEY")
     #Initialize Chain
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite")
+    llm = ChatGoogleGenerativeAI(
+        model="gemini-2.5-flash-lite",
+        google_api_key=GENERATOR_GOOGLE_API_KEY
+        )
     chain = prompt | llm | StrOutputParser()
     
     #Run and update state
@@ -49,7 +53,8 @@ def generator_node(state):
         "chat_history": history,
         "user": user, 
         "exercises": exercises, 
-        "research": research
+        "research": research,
+        "safety_feedback": safety_msg
     })
 
     # If your chain has a StrOutputParser(), 'response' is a string.
