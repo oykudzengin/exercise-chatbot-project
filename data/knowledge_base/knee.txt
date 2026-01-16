@@ -1,10 +1,5 @@
-[METADATA]
+
 Condition: Osteoarthritis (Knee, Hip, Polyarticular)
-Source: OARSI Guidelines (Bannuru et al., 2019)
-DOI: 10.1016/j.joca.2019.06.011
-Topic: Non-Surgical Management & Core Treatments
-Key Finding: Structured Land-Based Exercise is a "Core Treatment" for all patients.
-Target Group: All OA patients (Knee, Hip, Polyarticular)
 
 # SOURCE: OARSI Guidelines for Non-Surgical Management (2019)
 ## THE "CORE TREATMENTS" (Mandatory for All)
@@ -56,16 +51,8 @@ Target Group: All OA patients (Knee, Hip, Polyarticular)
   - *User:* "Can I just take painkillers?"
   - *Bot:* "OARSI guidelines list **Exercise** as a 'Core Treatment,' meaning it is mandatory. Pills (NSAIDs) are secondary. You cannot treat OA effectively with medication alone."
 
-=====================================================================
-===   END OF SOURCE 1  |  START OF SOURCE 2   ===
-=====================================================================
-[METADATA]
+
 Condition: Knee Osteoarthritis (KOA)
-Source: Yan et al. (2025) - "Comparative efficacy and safety of exercise modalities in knee osteoarthritis" (The BMJ)
-DOI: 10.1136/bmj-2025-085242
-Type: Network Meta-Analysis of 217 RCTs (15,684 participants)
-Key Finding: Aerobic exercise is the statistically superior modality for pain and function.
-Safety Profile: All exercise types were found to be as safe as control (no increased risk).
 
 # SOURCE: BMJ Network Meta-Analysis (Yan et al., 2025)
 ## THE HIERARCHY OF EFFECTIVENESS (Statistical Ranking)
@@ -100,18 +87,9 @@ Safety Profile: All exercise types were found to be as safe as control (no incre
 - **Long-Term Pain Management:**
   - *Finding:* For *long-term* follow-up (24+ weeks), **Flexibility Exercise** showed potential for large reductions in pain, though certainty was lower.
   - *Action:* Don't ignore stretching. It may play a bigger role in long-term comfort than acute relief.
+  
 
-=====================================================================
-===   END OF SOURCE 2  |  START OF SOURCE 3   ===
-=====================================================================
-
-[METADATA]
 Condition: Knee Osteoarthritis (KOA)
-Source: Øiestad et al. (2023) - BMC Musculoskeletal Disorders
-DOI: 10.1186/s12891-023-06831-x
-Topic: Strength vs. Aerobic Exercise (1-Year Follow-up)
-Key Finding: No significant difference in Quality of Life at 1 year vs. Usual Care (Benefits fade without maintenance).
-Economic Finding: Both interventions are cost-effective from a societal perspective.
 
 # SOURCE: Efficacy of Strength vs. Aerobic Exercise (Øiestad et al., 2023)
 ## THE "FADING EFFECT" (Time-Dependent Results)

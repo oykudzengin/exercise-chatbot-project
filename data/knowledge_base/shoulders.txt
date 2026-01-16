@@ -1,10 +1,7 @@
-[METADATA]
+
 Condition: Rotator Cuff-Related Shoulder Pain (RCRSP)
-Source: Lafrance et al. (2024) - JOSPT (Journal of Orthopaedic & Sports Physical Therapy)
-DOI: 10.2519/jospt.2024.12453
-Topic: Efficacy of Exercise Types (FITT Principle)
 Key Finding: Motor Control Exercises are superior to general exercise for reducing disability.
-Target Group: Adults with RCRSP (Subacromial Pain, Tendinopathy)
+
 
 # SOURCE: Efficacy of Exercise for RCRSP (FITT Review 2024)
 ## THE HIERARCHY OF EXERCISE TYPES
@@ -17,17 +14,12 @@ Target Group: Adults with RCRSP (Subacromial Pain, Tendinopathy)
   - *Finding:* None of these specific types were found to be superior to general non-specific exercise for pain or disability in this specific analysis.
   - *Implication:* "Heavy Eccentrics" (often cited for tendons) are *not* strictly required if the patient finds them too painful;
 
-=====================================================================
-===   END OF SOURCE 1  |  START OF SOURCE 2   ===
-=====================================================================
 
-[METADATA]
+
 Condition: Chronic Shoulder Pain
-Source: Silveira et al. (2024) - PLOS ONE
-DOI: 10.1371/journal.pone.0294014
-Topic: Efficacy of Exercise Therapy vs. Adjuncts (Injections, Manual Therapy)
+
 Key Finding: Shoulder-specific exercise alone is effective; adding injections or machines adds little value for pain.
-Target Group: Adults with Chronic Shoulder Pain (>3 months)
+
 
 # SOURCE: Shoulder Specific Exercise vs. Adjuncts (Silveira et al., 2024)
 ## THE "EXERCISE FIRST" FINDING
@@ -58,17 +50,10 @@ Target Group: Adults with Chronic Shoulder Pain (>3 months)
   - *Scenario:* User says "My shoulder is stiff and stuck."
   - *Bot Response:* "For stiffness (Range of Motion), this study found that adding **Manual Therapy** to your exercises *does* help more than exercise alone. But for pure pain relief, the exercise itself is the most important part."
 
-=====================================================================
-===   END OF SOURCE 2  |  START OF SOURCE 3   ===
-=====================================================================
 
-[METADATA]
+
 Condition: Shoulder Impingement Syndrome (SIS)
-Source: Guérineau et al. (2025) - Journal of Clinical Medicine (MDPI)
-DOI: 10.3390/jcm14051657
-Topic: Quality of Exercise Prescription for Overhead Athletes
-Key Finding: Most protocols lack detail (CERT score 8/19), but Scapular Stabilization (Lower Trap/Serratus) is the common effective thread.
-Target Group: Overhead Athletes (Volleyball, Tennis, Baseball) with SIS.
+
 
 # SOURCE: Therapeutic Exercise for Overhead Athletes (CERT Analysis 2025)
 ## THE "MISSING LINK" (Why Protocols Fail)

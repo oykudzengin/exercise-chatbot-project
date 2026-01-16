@@ -28,6 +28,19 @@ def load_all_documents(directory):
                 print(f"Error loading {file}: {e}")
     return docs
 
+def filter_to_minimal_docs(docs: List[Document]) -> List[Document]:
+    
+    minimal_docs: List[Document] = []
+    for doc in docs:
+        src = doc.metadata.get("source")
+        minimal_docs.append(
+            Document(
+                page_content = doc.page_content,
+                metadata={"source": src}
+            )
+        )
+    return minimal_docs
+
 #text splitting function
 def text_split(docs):
     text_splitter = RecursiveCharacterTextSplitter(

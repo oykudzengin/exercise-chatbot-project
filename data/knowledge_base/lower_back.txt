@@ -1,8 +1,6 @@
-[METADATA]
+
 Condition: Lumbar Disc Herniation (LDH)
-Source: Du et al. (2025) - Frontiers in Medicine (DOI: 10.3389/fmed.2025.1531637)
-Type: Systematic Review and Meta-Analysis of Randomized Controlled Trials
-Target Group: Patients with Mild LDH (Non-surgical candidates)
+
 Keywords: core stability, transversus abdominis, multifidus, VAS score, ODI, SF-36
 
 # SOURCE: Clinical Efficacy of Exercise Therapy for LDH (Du et al., 2025)
@@ -27,17 +25,7 @@ Keywords: core stability, transversus abdominis, multifidus, VAS score, ODI, SF-
 ## NUANCE: AEROBIC VS. STABILITY
 - **Note on Scope:** While core stability is the mechanism, the paper notes that general aerobic exercise is also suitable for mild LDH cases to improve overall function, provided it is not strenuous.
 
-=====================================================================
-===   END OF SOURCE 1  |  START OF SOURCE 2   ===
-=====================================================================
-
-[METADATA]
 Condition: Lumbar Disc Herniation (LDH)
-Source: Thavarajasingam et al. (2025) - "Exercise, manipulation and traction physiotherapy..."
-DOI: 10.1016/j.bas.2025.105632
-Type: Systematic Review and Meta-Analysis
-Key Finding: Traction Therapy has the highest effect size, superior to Exercise and Manipulation.
-Target Group: Patients seeking Conservative (Non-Surgical) Management
 
 # SOURCE: Comparative Efficacy of Physiotherapy Modalities (Thavarajasingam et al., 2025)
 ## THE HIERARCHY OF EFFECTIVENESS (Statistical Ranking)
@@ -63,17 +51,8 @@ Target Group: Patients seeking Conservative (Non-Surgical) Management
 - **Step 1 (Acute Phase):** If the user is in significant pain, prioritize **Traction** (or hanging/decompression exercises) if available, as it is the statistical #1.
 - **Step 2 (Maintenance):** Once pain is manageable, transition to **Exercise Therapy** (Rank 2) for long-term stability, as traction is a passive treatment that does not build muscle.
 
-=====================================================================
-===   END OF SOURCE 2  |  START OF SOURCE 3   ===
-=====================================================================
 
-[METADATA]
 Condition: Lumbar Disc Herniation (LDH)
-Source: Synthesis of 2025 Systematic Reviews (Du, Thavarajasingam, Garcia-Jaen, Li)
-Topic: Optimal Exercise Strategy & Pain Management
-Target Group: Non-Surgical Candidates (Conservative Management)
-Key Modalities: Traction (Acute), Core Stability (Chronic), Baduanjin (Elderly)
-Risk Level: Moderate (Requires Acute/Chronic Staging)
 
 # SOURCE: 2025 Consensus on Optimal Exercise Strategies for LDH
 ## THE "PHASED" STRATEGY (The Golden Rule)
@@ -113,17 +92,9 @@ Risk Level: Moderate (Requires Acute/Chronic Staging)
 - **Scenario B (User fears recurrence):** "To prevent the disc from herniating again, 'Core Stability' is the #1 proven method. We need to strengthen the corset muscles (Transversus Abdominis)."
 - **Scenario C (Elderly User):** "Standard gym exercises might be too harsh. Research supports **Baduanjin** (a gentle movement therapy) as highly effective for your age group."
 
-=====================================================================
-===   END OF SOURCE 3  |  START OF SOURCE 4   ===
-=====================================================================
 
-[METADATA]
 Condition: Chronic Low Back Pain (CLBP)
-Source: Frontiers in Public Health (2023) - "Exercise intervention for patients with chronic low back pain..."
-DOI: 10.3389/fpubh.2023.1155225
-Type: Network Meta-Analysis of 75 RCTs (5,254 participants)
-Key Finding: Mind-Body exercises (Tai Chi, Yoga, Pilates) outperform conventional rehabilitation for pain relief.
-Target Group: Adults with Non-Specific Chronic Low Back Pain (>12 weeks duration)
+
 
 # SOURCE: Network Meta-Analysis of Exercise for CLBP (2023)
 ## THE HIERARCHY OF PAIN RELIEF (Statistical Ranking)

@@ -1,9 +1,7 @@
-[METADATA]
+
 Condition: Hypertension (High Blood Pressure)
-Source: ACSM - "Exercise for the Prevention and Treatment of Hypertension"
-Target Group: Adults with Hypertension (>130/80 mmHg)
 Keywords: systolic, diastolic, aerobic, resistance, valsalva, post-exercise hypotension, FITT
-Risk Level: Moderate (Requires Pre-Screening)
+
 
 # CONDITION: Hypertension
 # GUIDELINE SOURCE: ACSM Scientific Statement (Exercise for the Prevention and Treatment of Hypertension)
@@ -57,17 +55,7 @@ Risk Level: Moderate (Requires Pre-Screening)
 - **Pre-Participation:** Although exercise is generally safe, sedentary adults with known CVD who wish to start *vigorous* exercise need medical clearance.
 - **Medication Note:** Be aware of concomitant drug therapy (beta-blockers, etc.) which may alter heart rate response to exercise.
 
-=====================================================================
-===   END OF SOURCE 1  |  START OF SOURCE 2   ===
-=====================================================================
-
-[METADATA]
 Condition: Hypertension
-Source: Pescatello et al. (2015) - "Exercise for Hypertension: A Prescription Update"
-DOI: 10.1007/s11906-015-0600-y
-Topic: Mechanism of Action (PEH) & Emerging Modalities
-Key Finding: Immediate BP drop after exercise (PEH) is the primary driver of benefits.
-Emerging Strategy: Isometric Resistance Training (Wall sits/Handgrip) is highly effective.
 
 # SOURCE: Exercise for Hypertension: A Prescription Update (Pescatello, 2015)
 ## THE "PEH" RULE (Why Frequency > Intensity)
@@ -96,7 +84,3 @@ Emerging Strategy: Isometric Resistance Training (Wall sits/Handgrip) is highly 
 ## SAFETY & PROGRESSION
 - **The "Exaggerated Response" Warning:** Patients with hypertension may have an exaggerated BP rise during *high-intensity* exercise.
 - **Progression Logic:** Start with moderate intensity. Only progress to vigorous intensity if the patient has been medically cleared and has tolerated moderate exercise well for several weeks.
-
-=====================================================================
-===   END OF SOURCE 2  |  START OF SOURCE 3   ===
-=====================================================================

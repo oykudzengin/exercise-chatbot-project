@@ -1,12 +1,4 @@
 
-[METADATA]
-Condition: Chronic Non-Specific Neck Pain (CNSNP)
-Source: de Zoete et al. (2020) - British Journal of Sports Medicine (BJSM)
-DOI: 10.1136/bjsports-2020-102664
-Type: Network Meta-Analysis of 40 RCTs
-Key Finding: Motor Control and Yoga/Pilates are superior to "Multimodal" (mixed) exercises.
-Target Group: Adults with chronic neck pain (>12 weeks) without specific pathology.
-
 # SOURCE: Comparative Effectiveness of Exercise for Neck Pain (BJSM, 2020)
 ## THE HIERARCHY OF EFFECTIVENESS (Statistical Ranking)
 - **Rank 1 (Best for Pain):** Motor Control Exercises
@@ -43,16 +35,8 @@ Target Group: Adults with chronic neck pain (>12 weeks) without specific patholo
   - *Bot Response:* "If you dislike repetitive rehab exercises, **Yoga or Pilates** are ranked #2 and are statistically just as effective as clinical therapy for reducing disability."
 
 
-=====================================================================
-===   END OF SOURCE 1  |  START OF SOURCE 2   ===
-=====================================================================
-[METADATA]
+
 Condition: Chronic Neck Pain
-Source: Rasmussen-Barr et al. (2023) - BMC Musculoskeletal Disorders
-DOI: 10.1186/s12891-023-06930-9
-Type: Systematic Review of Systematic Reviews (25 SRs, 17,321 participants)
-Key Finding: No single "optimal" exercise exists, but Motor Control has the most consistent evidence.
-Outlier Finding: Resistance Training improved pain but NOT disability (unlike Yoga/Pilates/MCE).
 
 # SOURCE: Review of Reviews on Chronic Neck Pain (2023)
 ## THE "EQUALITY" RULE (With One Exception)
@@ -80,16 +64,8 @@ Outlier Finding: Resistance Training improved pain but NOT disability (unlike Yo
   - *Finding:* The review concludes "No optimal exercise intervention can be recommended" because differences were small.
   - *Action:* The Bot should encourage **Patient Preference**. "Since the scientific difference is small, do the one you enjoy (Yoga vs. Gym), because consistency is the only magic bullet."
 
-=====================================================================
-===   END OF SOURCE 2  |  START OF SOURCE 3   ===
-=====================================================================
-[METADATA]
+
 Condition: Neck Pain Prevention
-Source: Teichert et al. (2023) - JOSPT (Journal of Orthopaedic & Sports Physical Therapy)
-DOI: 10.2519/jospt.2023.12063
-Topic: Preventing Neck Pain in Office Workers
-Key Finding: Exercise reduces the risk of a new neck pain episode by ~50% (Odds Ratio 0.49).
-Target Group: Healthy adults (mostly office workers) without current neck pain.
 
 # SOURCE: Prevention of Neck Pain (JOSPT 2023)
 ## THE "VACCINE" EFFECT (Prevention Statistics)
@@ -119,7 +95,4 @@ Target Group: Healthy adults (mostly office workers) without current neck pain.
   - *Note:* The protective effect is confirmed for the "Short Term" (up to 12 months).
   - *Advice:* "Think of exercise like a flu shot that needs a booster. You need to keep doing it to maintain the protection year after year."
 
-=====================================================================
-===   END OF SOURCE 3  |  START OF SOURCE 4   ===
-=====================================================================
 

@@ -40,11 +40,12 @@ def generator_node(state):
         ("human", "User Profile: {user}\nSafe Exercises: {exercises}\nResearch Context: {research}\n{safety_feedback}")
     ])
     
-    GENERATOR_GOOGLE_API_KEY = os.getenv("GENERATOR_GOOGLE_API_KEY")
+    #GENERATOR_GOOGLE_API_KEY = os.getenv("GENERATOR_GOOGLE_API_KEY")
+    GRADER_API_KEY = os.getenv("GRADER_API_KEY")
     #Initialize Chain
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.5-flash-lite",
-        google_api_key=GENERATOR_GOOGLE_API_KEY
+        model="gemini-2.5-flash",
+        google_api_key=GRADER_API_KEY
         )
     chain = prompt | llm | StrOutputParser()
     

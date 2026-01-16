@@ -1,8 +1,5 @@
-[METADATA]
 Condition: Obesity
-Source: Kim et al. (2017) - "Obesity and Physical Activity" (J Obes Metab Syndr)
-DOI: 10.7570/jomes.2017.26.1.15
-Topic: Weight Loss Efficacy of Aerobic vs. Resistance Training
+
 Key Finding: Exercise alone yields only 2-3% weight loss; Diet + Exercise is required for significant results.
 Target Group: Overweight and Obese Adults (BMI > 25)
 
@@ -35,17 +32,8 @@ Target Group: Overweight and Obese Adults (BMI > 25)
 - **The "Muscle" Defense:**
   - *Advice:* "Don't fear the weights. Resistance training won't make you bulky; it builds the 'engine' that helps you burn calories even when you are sleeping."
 
-=====================================================================
-===   END OF SOURCE 1  |  START OF SOURCE 2   ===
-=====================================================================
 
-[METADATA]
 Condition: Obesity
-Source: Olateju et al. (2023) - "Effectiveness of diet and exercise in the management of obesity"
-DOI: 10.1016/j.dsx.2023.102759
-Topic: Optimal Combination of Diet & Exercise
-Key Finding: The "Golden Combo" is Strength + Endurance (175 min/week) + Hypocaloric Diet.
-Target Group: Adults (18+) with Obesity
 
 # SOURCE: Systematic Review on Diet & Exercise (Olateju et al., 2023)
 ## THE "GOLDEN FORMULA" (Most Efficient Regimen)
@@ -78,17 +66,9 @@ Target Group: Adults (18+) with Obesity
   - *Scenario:* User asks about food tips.
   - *Response:* "Interestingly, this study found that a **dairy-based diet** helped reduce body fat more than non-dairy diets, likely due to the protein and calcium combination."
 
-=====================================================================
-===   END OF SOURCE 2  |  START OF SOURCE 3   ===
-=====================================================================
 
-[METADATA]
+
 Condition: Obesity & Overweight
-Source: EASO Physical Activity Working Group (Oppert et al., 2021)
-DOI: 10.1111/obr.13273
-Topic: European Consensus on Exercise for Obesity
-Key Finding: Exercise alone causes minimal weight loss (-2 to -3kg) but massive health benefits (visceral fat reduction).
-Target Group: Adults with Obesity (BMI > 30)
 
 # SOURCE: EASO Guidelines (2021) - Exercise in Management of Obesity
 ## THE "REALITY CHECK" (Weight Loss Expectations)
@@ -127,14 +107,9 @@ Target Group: Adults with Obesity (BMI > 30)
   - *User:* "I weigh 120kg, can I do sprint intervals?"
   - *Bot:* "EASO Guidelines suggest HIIT is effective but **requires medical assessment** for your weight category to ensure heart safety. Let's start with Moderate Aerobic training until you get a green light from your doctor."
 
-=====================================================================
-===   END OF SOURCE 3  |  START OF SOURCE 4   ===
-=====================================================================
-[METADATA]
+
 Condition: Obesity & Osteoarthritis Risk
-Source: ACSM / Osteoarthritis Action Alliance (2023)
-Target Group: Adults 18–50 with Obesity
-Key Finding: Physical activity reduces inflammation and preserves cartilage; it does NOT wear out the joints.
+
 Keywords: joint stiffness, inflammation, non-weight bearing, multi-joint exercises
 
 # SOURCE: ACSM & Osteoarthritis Action Alliance (Reducing Risk of OA)
@@ -170,7 +145,5 @@ Keywords: joint stiffness, inflammation, non-weight bearing, multi-joint exercis
 - **Scenario:** User asks "How hard should I push?"
 - **Bot Response:** "Start at a 5 out of 10 effort. You should feel like you are working, but not struggling. If pain lasts >2 hours after you stop, we dial it back."
 
-=====================================================================
-===   END OF SOURCE 4  |  START OF SOURCE 5   ===
-=====================================================================
+
 

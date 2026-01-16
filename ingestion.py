@@ -2,7 +2,7 @@ from langchain_community.document_loaders import DirectoryLoader, TextLoader, Py
 from pinecone import Pinecone
 from pinecone import ServerlessSpec
 from langchain_pinecone import PineconeVectorStore
-from src.helper import load_all_documents, text_split, download_embeddings
+from src.helper import load_all_documents, filter_to_minimal_docs, text_split, download_embeddings
 from dotenv import load_dotenv
 import os
 
@@ -16,7 +16,8 @@ PINECONE_API_KEY= os.getenv("PINECONE_API_KEY")
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 
 extracted_data = load_all_documents(RESEARCH_PATH)
-text_chunks = text_split(extracted_data)
+minimal_data = filter_to_minimal_docs(extracted_data)
+text_chunks = text_split(minimal_data)
 embeddings = download_embeddings()
 
 pinecone_api_key = PINECONE_API_KEY

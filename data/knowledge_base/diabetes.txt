@@ -1,9 +1,6 @@
-[METADATA]
-Condition: Type 2 Diabetes
-Source: ACSM - "6 Tips for Physical Activity with Type 2 Diabetes"
+
 Target Group: People with Type 2 Diabetes
 Keywords: aerobic, resistance, post-prandial, insulin, beta blockers, RPE, hypoglycemia
-Risk Level: General Advice (Patient-Facing)
 
 # CONDITION: Type 2 Diabetes (Lifestyle Tips)
 # SOURCE: ACSM "6 Tips" Article
@@ -29,16 +26,9 @@ Risk Level: General Advice (Patient-Facing)
 ## SUMMARY OF BENEFITS
 - **Global Impact:** Diabetes affects >463 million people.
 - **Prevention & Management:** Research confirms physical activity is a primary tool for both preventing Type 2 Diabetes and managing its daily effects.
-=====================================================================
-===   END OF SOURCE 1  |  START OF SOURCE 2   ===
-=====================================================================
 
-[METADATA]
-Condition: Type 2 Diabetes
-Source: Garcia et al. (2025) - Diabetes Research and Clinical Practice
+
 Topic: Effectiveness of Different Exercise Types on HbA1c
-Key Finding: HIIT is the most effective method for lowering blood sugar.
-Comparison: HIIT vs. Aerobic vs. Resistance vs. Advice
 
 # SECTION: DEFINITIONS AND BASICS
 ## What is HbA1c?
@@ -76,20 +66,10 @@ Comparison: HIIT vs. Aerobic vs. Resistance vs. Advice
   - *SUCRA Score:* 29%
   - *Takeaway:* Simply telling patients to "move more" works, but it is roughly half as effective as structured HIIT.
 
-## CLINICAL TAKEAWAYS FOR CHATBOT
+## CLINICAL TAKEAWAYS
 - **Recommendation Logic:** If the user is capable of high intensity, recommend HIIT for maximum results.
 - **Alternative:** If the user prefers steady exercise, Combined Training or Aerobic Training are nearly as effective (-0.58% vs -0.61%).
 - **Minimum Effective Dose:** Even unstructured "Physical Activity Advice" leads to a significant drop (-0.35%), so it is better than doing nothing.
-
-=====================================================================
-===   END OF SOURCE 2  |  START OF SOURCE 3   ===
-=====================================================================
-[METADATA]
-Condition: Type 2 Diabetes
-Source: ACSM Consensus Statement (Kanaley et al., 2022) - DOI: 10.1249/mss.0000000000002800
-Topic: Updated Exercise & Physical Activity Guidelines
-Key Updates: Sedentary breaks, Post-prandial timing, HIIT acceptance, Weight loss targets
-Target Group: Adults with Type 2 Diabetes
 
 # SOURCE: ACSM Consensus Statement (2022 Update)
 ## MAJOR SHIFT: "ACTIVITY" VS "EXERCISE"
@@ -137,6 +117,3 @@ Target Group: Adults with Type 2 Diabetes
 - **Peripheral Neuropathy:** Proper footwear is critical. Check feet daily. (Note: The 2022 guidelines are less restrictive on "weight-bearing" than 2010, focusing more on foot inspection).
 - **Retinopathy:** Avoid activities that spike blood pressure dramatically (e.g., heavy lifting with breath-holding/Valsalva, head-down yoga positions).
 
-=====================================================================
-===   END OF SOURCE 3  |  START OF SOURCE 4   ===
-=====================================================================

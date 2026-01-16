@@ -44,7 +44,7 @@ def retriever_node(state):
     research_text = "\n\n".join([doc.page_content for doc in docs])
 
     return {
-        "safe_exercises": safe_list[:12],
+        "safe_exercises": safe_list[:7],
         "research_context": research_text
     }
 
