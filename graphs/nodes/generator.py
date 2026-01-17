@@ -7,7 +7,7 @@ import os
 
 
 def generator_node(state):
-    print("---NODE: GENERATING WORKOUT PLAN---")
+    #print("---NODE: GENERATING WORKOUT PLAN---")
 
     history = state.get("messages", [])
     exercises = state.get("safe_exercises", {})

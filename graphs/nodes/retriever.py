@@ -13,7 +13,7 @@ LEVEL_EQUIPMENT_MAP = {
 }
 
 def retriever_node(state):
-    print("---NODE: RETRIEVING & FILTERING---")
+    #print("---NODE: RETRIEVING & FILTERING---")
     
     #Get input from State
     profile = state.get("user_profile", {})
@@ -25,8 +25,9 @@ def retriever_node(state):
     user_goal = str(profile.get("goals", [])) + str(profile.get("workout_type", "strength"))
     user_goal = user_goal.lower()
 
-
-    with open('data/database/exercises_s2.json', 'r', encoding='utf-8') as f:
+    current_dir = os.path.dirname(__file__)
+    json_path = os.path.normpath(os.path.join(current_dir, "../../data/database/exercises_s2.json"))
+    with open(json_path, 'r', encoding='utf-8') as f:
         all_exercises = json.load(f)
 
     allowed_equip = LEVEL_EQUIPMENT_MAP.get(user_level, ["body weight"])
@@ -120,7 +121,7 @@ def retriever_node(state):
                 menu[part.upper()] = matches[:6]
         
 
-    print(f"DEBUG: Programmed Menu Categories: {list(menu.keys())}")  
+    #print(f"DEBUG: Programmed Menu Categories: {list(menu.keys())}")  
 
     
     #muscle must match and no unsuitable condition is allowed

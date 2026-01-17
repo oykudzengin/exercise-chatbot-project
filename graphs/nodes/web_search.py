@@ -6,7 +6,7 @@ from graphs.state import GraphState # Use your defined state class
 web_search_tool = TavilySearch(max_results=5)
 
 def web_search_node(state: GraphState) -> Dict[str, Any]:
-    print("---NODE: WEB SEARCH---")
+    #print("---NODE: WEB SEARCH---")
 
     messages = state.get("messages", [])
     

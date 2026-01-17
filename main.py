@@ -1,15 +1,13 @@
 import os
 from dotenv import load_dotenv
-
 from langgraph.graph import StateGraph, START, END
 from graphs.state import GraphState
 from graphs.nodes.query_analysis import query_analyzer_node
 from graphs.nodes.retriever import retriever_node
-from graphs.nodes.web_search import web_search
+from graphs.nodes.web_search import web_search_node
 from graphs.nodes.generator import generator_node
 from graphs.nodes.safety_grader import safety_grader_node
 from graphs.nodes.greeting import greeting_node
-
 from langgraph.checkpoint.memory import InMemorySaver
 
 load_dotenv()
@@ -64,61 +62,80 @@ def route_after_generation(state: GraphState):
     # Otherwise, it's a workout—run it by the doctor (grader)
     return "grade"
 
-workflow = StateGraph(GraphState)
-memory = InMemorySaver()
+def get_graph():
+    workflow = StateGraph(GraphState)
 
-#addin the nodes created
-workflow.add_node("greeting", greeting_node)
-workflow.add_node("analyze_query", query_analyzer_node)
-workflow.add_node("retrieve_local", retriever_node)
-workflow.add_node("web_search", web_search)
-workflow.add_node("generate_workout", generator_node)
-workflow.add_node("safety_grader", safety_grader_node)
+    #adding the nodes created
+    workflow.add_node("greeting", greeting_node)
+    workflow.add_node("analyze_query", query_analyzer_node)
+    workflow.add_node("retrieve_local", retriever_node)
+    workflow.add_node("web_search", web_search_node)
+    workflow.add_node("generate_workout", generator_node)
+    workflow.add_node("safety_grader", safety_grader_node)
 
-# 1. Start with Greeting instead of Analyze
-workflow.add_edge(START, "greeting")
+    #adding the edges
+    # 1. Start with Greeting
+    workflow.add_edge(START, "greeting")
 
-# 2. Conditional Edge from Greeting
-workflow.add_conditional_edges(
-    "greeting",
-    route_greeting,
-    {
-        "wait_for_user": END,   # Stops here so user can see the greeting and reply
-        "analyze": "analyze_query" # Proceeds if user has already replied
-    }
-)
+    # 2. Conditional Edge from Greeting
+    workflow.add_conditional_edges(
+        "greeting",
+        route_greeting,
+        {
+            "wait_for_user": END,   # Stops here so user can see the greeting message and reply
+            "analyze": "analyze_query" # Proceeds if user has already replied
+        }
+    )
+    # 3. After analyzing the query it moves to corresponding node
+    workflow.add_conditional_edges(
+        "analyze_query",
+        route_question,
+        {
+            "retrieve_local": "retrieve_local",
+            "web_search": "web_search",
+            "just_chat": "generate_workout"
+        }
+    )
+    # 4. Edges leading to generator node
+    workflow.add_edge("web_search", "generate_workout")
+    workflow.add_edge("retrieve_local", "generate_workout")
 
-workflow.add_conditional_edges(
-    "analyze_query",
-    route_question,
-    {
-        "retrieve_local": "retrieve_local",
-        "web_search": "web_search",
-        "just_chat": "generate_workout"
-    }
-)
+    # The Safety Loop: Generator -> Grader -> (Finish or Back to Generator)
+    workflow.add_conditional_edges(
+        "generate_workout",
+        route_after_generation,
+        {
+            "finish": END,
+            "grade": END
+            #"grade": "safety_grader" grader not is temporarily on hold!!!
+        }   
+    
+    )
 
-workflow.add_edge("web_search", "generate_workout")
-workflow.add_edge("retrieve_local", "generate_workout")
+    # Depending on the safety results either generate again or give the final answer
+    workflow.add_conditional_edges(
+        "safety_grader",
+        check_safety_results,
+        {
+            "finish": END,
+            "retry": "generate_workout" 
+        }
+    )
 
-# The Safety Loop: Generator -> Grader -> (Finish or Back to Generator)
-workflow.add_conditional_edges(
-    "generate_workout",
-    route_after_generation,
-    {
-        "finish": END,
-        "grade": "safety_grader"
-    }
-)
+    memory = InMemorySaver()
+    # Compile
+    app = workflow.compile(checkpointer=memory)
 
-workflow.add_conditional_edges(
-    "safety_grader",
-    check_safety_results,
-    {
-        "finish": END,
-        "retry": "generate_workout" 
-    }
-)
+ex_chatbot_app = get_graph()
 
-# Compile
-app = workflow.compile(checkpointer=memory)
+
+
+
+
+
+
+
+
+
+
+

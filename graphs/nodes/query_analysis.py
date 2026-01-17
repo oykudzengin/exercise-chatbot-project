@@ -4,7 +4,7 @@ def query_analyzer_node(state):
     """
     Node to analyze the user query and update the state with a structured profile.
     """
-    print("---NODE: ANALYZING USER QUERY---")
+    #print("---NODE: ANALYZING USER QUERY---")
 
     messages = state.get("messages", [])
     
@@ -29,7 +29,7 @@ def query_analyzer_node(state):
         "emergency": extracted_profile.is_medical_emergency
     }
 
-    print(f"DEBUG: Query Analyzer produced dict: {profile_dict}") #debug line
+    #print(f"DEBUG: Query Analyzer produced dict: {profile_dict}") #debug line
 
     #if we have an existing user profile
     existing_profile = state.get("user_profile")

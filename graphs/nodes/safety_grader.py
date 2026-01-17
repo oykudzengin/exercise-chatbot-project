@@ -12,7 +12,7 @@ class SafetyScore(BaseModel):
 
 def safety_grader_node(state):
     time.sleep(2) #for the free tier
-    print("---NODE: GRADING SAFETY---")
+    #print("---NODE: GRADING SAFETY---")
 
     generation = state.get("generation", "")
     safe_exercises = state.get("safe_exercises", {})
