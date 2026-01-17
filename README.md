@@ -16,13 +16,13 @@ Elite Medical Fitness Coach is a sophisticated AI-driven platform that bridges t
 ## :syringe: Considered Health Conditions
 
 Since this is a learning demo project, the pool of the health conditions considered in this project is limited by few: </br>
-    * Hypertension
-    * Type 2 Diabetes
-    * Obesity
-    * Lower Back Pain
-    * Knee Pain
-    * Shoulder Pain
-    * Neck Pain
+* Hypertension
+* Type 2 Diabetes
+* Obesity
+* Lower Back Pain
+* Knee Pain
+* Shoulder Pain
+* Neck Pain
 
 ---
 
