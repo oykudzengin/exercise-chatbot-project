@@ -47,8 +47,9 @@ QUERY_ANALYZER_PROMPT = ChatPromptTemplate.from_messages([
 
         FIELDS TO EXTRACT:
         1. level: (Beginner, Intermediate, or Advanced). Default to 'Beginner' if unclear.
-        2. workout_type: The specific goal (e.g., 'Lower Body', 'Back', 'Cardio').
-        3. conditions:    
+        2. goals: goal body type in a list of strings. (e.g., ["lower body"], ["upper body"])
+        3. workout_type: The type of the workout (e.g., 'strength', 'cardio', 'advanced').
+        4. conditions:    
             - 'lower back', 'disc', 'spine' -> lowerback_pain
             - 'neck', 'cervical' -> neck_pain
             - 'shoulder', 'rotator cuff' -> shoulder_pain
@@ -58,7 +59,7 @@ QUERY_ANALYZER_PROMPT = ChatPromptTemplate.from_messages([
             - 'knee', 'acl' -> knee_pain
             - 'new', 'start', 'beginner', 'newbie' -> beginner 
             - If the user says 'none' or 'no pain', return [].
-        4. intent: 
+        5. intent: 
         - If the user says hello, hi, or introduces themselves: intent = 'greeting'
         - If the user asks for a workout, exercise, or routine: intent = 'workout_request'
         - If the user asks a general question or follows up: intent = 'general_chat'

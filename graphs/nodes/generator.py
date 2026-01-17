@@ -35,9 +35,9 @@ def generator_node(state):
             INSTRUCTIONS:
             1. OPENING: Start with a brief (1-2 sentence) supportive greeting.
             2. SELECTION: Pick ONE exercise from each category in the 'SAFE EXERCISES' dictionary.
-            3. CLINICAL TIPS: For every exercise, provide a 'Clinical Tip' using the RESEARCH CONTEXT to explain WHY it's beneficial.
+            3. CLINICAL TIPS: For every exercise, provide 2 sentence 'Clinical Tip' using the RESEARCH CONTEXT to explain WHY it's beneficial.
             4. RESEARCH SUMMARY: Include a separate 'Coach’s Perspective' section at the end of the table. Use the RESEARCH CONTEXT to provide 2-3 general medical insights (e.g., explaining that exercise is safe even with chronic pain) to educate and reassure the user.
-            5. FORMATTING: Use a Markdown table for the workout plan and a bulleted list for the summary tips."""),
+            5. FORMATTING: Use a Markdown table for the workout plan and a bulleted list for the summary tips. Output ONLY the Markdown table and the Coach's Perspective. Do not add conversational filler inside the table cells."""),
             ("placeholder", "{chat_history}"),
             ("human", """
                 USER PROFILE: {user}
