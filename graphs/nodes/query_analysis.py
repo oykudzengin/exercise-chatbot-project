@@ -17,7 +17,7 @@ def query_analyzer_node(state):
 
 
     #Pydantic object will be returned (UserProfile)
-    extracted_profile = query_analyzer.invoke({"question": last_user_message})
+    extracted_profile = query_analyzer.invoke({"chat_history": messages[:-1],"question": last_user_message})
 
     profile_dict = {
         "name": extracted_profile.name,

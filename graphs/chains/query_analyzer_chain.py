@@ -63,11 +63,15 @@ QUERY_ANALYZER_PROMPT = ChatPromptTemplate.from_messages([
         - If the user asks for a workout, exercise, or routine: intent = 'workout_request'
         - If the user asks a general question or follows up: intent = 'general_chat'
      
+        IF THERE IS CHAT HISTORY:
+        If the user previously stated ther level, and goals,(check it from chat history) do not change it until they explicitly say they changed it.
+     
         ROUTING LOGIC:
         - Set 'datasource' to 'retrieve_local' if they want a workout plan.
         - Set 'datasource' to 'none' if they are just chatting or saying hello.
         """),
-    ("human", "{question}")
+        ("placeholder", "{chat_history}"),
+        ("human", "{question}")
 ])
 
 query_analyzer = QUERY_ANALYZER_PROMPT | query_analyzer_chain

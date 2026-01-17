@@ -20,7 +20,9 @@ def route_greeting(state: GraphState):
     Otherwise, we proceed to analysis.
     """
     if state.get("onboarding_complete") is False:
+        print("---ONBOARDING INCOMPLETE: WAITING FOR USER---")
         return "wait_for_user"
+    print("---ONBOARDING COMPLETE: PROCEEDING TO ANALYSIS---")
     return "analyze"
 
 def route_question(state: GraphState):

@@ -14,6 +14,7 @@ class GraphState(TypedDict):
     user_profile: Optional[dict] # Extracted user profile
     
     safe_exercises: List[dict]   # Filtered list from JSON
+    onboarding_complete: bool
     research_context: str        # Relevant text chunks from Pinecone
     web_search_results: str      # Data from Tavily (optional)
 

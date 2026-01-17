@@ -510,7 +510,7 @@
         "difficulty": "beginner",
         "not_suitable_for": [],
         "type": "strength",
-        "pattern": ""
+        "pattern": "calves"
     },
     {
         "name": "weighted calf raise",
@@ -521,7 +521,7 @@
         "difficulty": "beginner",
         "not_suitable_for": [],
         "type": "strength",
-        "pattern": ""
+        "pattern": "calves"
     },
     {
         "name": "cable hip adduction",
@@ -1154,7 +1154,7 @@
         "difficulty": "Beginner",
         "not_suitable_for": [],
         "type": "strength",
-        "pattern": ""
+        "pattern": "extension"
     },
     {
         "name": "glute bridge march",
