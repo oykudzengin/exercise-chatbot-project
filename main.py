@@ -125,6 +125,7 @@ def get_graph():
     memory = InMemorySaver()
     # Compile
     app = workflow.compile(checkpointer=memory)
+    return app
 
 ex_chatbot_app = get_graph()
 

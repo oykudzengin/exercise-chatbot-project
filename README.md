@@ -15,7 +15,7 @@ Elite Medical Fitness Coach is a sophisticated AI-driven platform that bridges t
 
 ## :syringe: Considered Health Conditions
 
-Since this is a learning demo project, the pool of the health conditions considered in this project is limited by few:
+Since this is a learning demo project, the pool of the health conditions considered in this project is limited by few: </br>
     * Hypertension
     * Type 2 Diabetes
     * Obesity
@@ -28,7 +28,7 @@ Since this is a learning demo project, the pool of the health conditions conside
 
 ## :books: Health Conditions and Personal Trainer Data
 
-Summarized data from the research papers about the considered conditions (mentioned above) is pulled and distinct text files are created to be sent to VectorDB.
+Summarized data from the research papers about the considered conditions (mentioned above) is pulled and distinct text files are created to be sent to VectorDB. <br>
 For Personal trainer guide, two PDF books are added for LLM to provide data with a coaching tone and fulfilling the generated workout plan by giving related information from the books.
 
 ---
