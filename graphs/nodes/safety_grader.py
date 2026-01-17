@@ -15,14 +15,27 @@ def safety_grader_node(state):
     print("---NODE: GRADING SAFETY---")
 
     generation = state.get("generation", "")
-    safe_exercises = state.get("safe_exercises", [])
+    safe_exercises = state.get("safe_exercises", {})
     conditions = state.get("user_profile", {}).get("conditions", [])
     truncated_research = state.get("research_context", "")[:2000]
 
+    flattened_list = []
+    if isinstance(safe_exercises, dict):
+        for exercise_list in safe_exercises.values():
+            flattened_list.extend(exercise_list)
+    else:
+        flattened_list = safe_exercises # Fallback
+
+    # If the menu only has names, the grader will rely more on its own knowledge + research.
     safety_lookup = "\n".join([
-        f"{ex['name']}: not suitable for {ex.get('not_suitable_for', [])}" 
-        for ex in safe_exercises
+        f"{ex.get('name')}: not suitable for {ex.get('not_suitable_for', [])}" 
+        for ex in flattened_list if isinstance(ex, dict)
     ])
+
+    # safety_lookup = "\n".join([
+    #     f"{ex['name']}: not suitable for {ex.get('not_suitable_for', [])}" 
+    #     for ex in safe_exercises
+    # ])
     
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.5-flash-lite", 

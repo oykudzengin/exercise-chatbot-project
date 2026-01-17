@@ -8,10 +8,20 @@ from graphs.nodes.retriever import retriever_node
 from graphs.nodes.web_search import web_search
 from graphs.nodes.generator import generator_node
 from graphs.nodes.safety_grader import safety_grader_node
+from graphs.nodes.greeting import greeting_node
 
 from langgraph.checkpoint.memory import InMemorySaver
 
 load_dotenv()
+
+def route_greeting(state: GraphState):
+    """
+    If onboarding is not complete (first message), we wait for user input.
+    Otherwise, we proceed to analysis.
+    """
+    if state.get("onboarding_complete") is False:
+        return "wait_for_user"
+    return "analyze"
 
 def route_question(state: GraphState):
     """
@@ -56,14 +66,25 @@ workflow = StateGraph(GraphState)
 memory = InMemorySaver()
 
 #addin the nodes created
+workflow.add_node("greeting", greeting_node)
 workflow.add_node("analyze_query", query_analyzer_node)
 workflow.add_node("retrieve_local", retriever_node)
 workflow.add_node("web_search", web_search)
 workflow.add_node("generate_workout", generator_node)
 workflow.add_node("safety_grader", safety_grader_node)
 
-# Add Edges (Hallways)
-workflow.add_edge(START, "analyze_query")
+# 1. Start with Greeting instead of Analyze
+workflow.add_edge(START, "greeting")
+
+# 2. Conditional Edge from Greeting
+workflow.add_conditional_edges(
+    "greeting",
+    route_greeting,
+    {
+        "wait_for_user": END,   # Stops here so user can see the greeting and reply
+        "analyze": "analyze_query" # Proceeds if user has already replied
+    }
+)
 
 workflow.add_conditional_edges(
     "analyze_query",

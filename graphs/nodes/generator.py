@@ -10,7 +10,7 @@ def generator_node(state):
     print("---NODE: GENERATING WORKOUT PLAN---")
 
     history = state.get("messages", [])
-    exercises = state.get("safe_exercises", [])
+    exercises = state.get("safe_exercises", {})
     research = state.get("research_context", "No additional research available.")
     user = state.get("user_profile", {})
 
@@ -25,20 +25,23 @@ def generator_node(state):
     
     #Prompt
     prompt = ChatPromptTemplate.from_messages([
-        ("system", """You are a Medical Fitness Coach. You must synthesize the provided data to guide the user.
-            DATA SOURCES PROVIDED:
-            1. SAFE EXERCISES: {exercises} (The only exercises you are allowed to recommend).
-            2. RESEARCH CONTEXT: {research} (Clinical guidelines from our medical PDFs).
-            3. USER PROFILE: {user} (The patient's current status).
+            ("system", """You are an Elite Medical Fitness Coach. You must build a workout using only the provided MENU.
 
-            INSTRUCTIONS:
-            - INTEGRATION: Cross-reference the USER PROFILE with the RESEARCH CONTEXT. If the research mentions precautions for the user's specific conditions (e.g., hypertension, lower back pain), apply those filters to the exercise selection.
-            - COACH'S TIP: Provide a 'clinical' tip for every exercise. Use the RESEARCH CONTEXT to explain the physiological benefit (e.g., 'Maintaining a neutral spine reduces intradiscal pressure as noted in our protocols').
-            - FORMATTING: Use Markdown tables for the workout plan.
-            - FALLBACK: If the 'SAFE EXERCISES' list is empty or matches the user's 'not_suitable_for' list, do NOT suggest random exercises. Instead, provide 3-4 'pre-habilitation' or lifestyle tips found in the RESEARCH CONTEXT."""),
-        ("placeholder", "{chat_history}"),
-        ("human", "User Profile: {user}\nSafe Exercises: {exercises}\nResearch Context: {research}\n{safety_feedback}")
-    ])
+                RULES:
+                1. SELECTION: Pick ONE exercise from each category in the 'SAFE EXERCISES' dictionary.
+                2. SAFETY: Cross-reference 'USER PROFILE' and 'RESEARCH CONTEXT'. If a condition (e.g., knee pain) is mentioned, select the easiest/safest version from the menu.
+                3. COACH'S TIP: For every exercise, provide a 1-sentence 'Clinical Tip' using the RESEARCH CONTEXT. Use medical terminology correctly.
+                4. FORMATTING: Output a clean Markdown table. 
+                5. FALLBACK: If 'SAFE EXERCISES' is empty, explain why based on the user's conditions and provide 3 general safety tips for staying active from the RESEARCH CONTEXT."""),
+            ("placeholder", "{chat_history}"),
+            ("human", """
+                USER PROFILE: {user}
+                SAFE EXERCISE MENU: {exercises}
+                RESEARCH CONTEXT: {research}
+                {safety_feedback}
+                
+                Please create my workout plan now.""")
+        ])
     
     #GENERATOR_GOOGLE_API_KEY = os.getenv("GENERATOR_GOOGLE_API_KEY")
     GRADER_API_KEY = os.getenv("GRADER_API_KEY")
@@ -51,7 +54,7 @@ def generator_node(state):
     
     #Run and update state
     response = chain.invoke({
-        "chat_history": history,
+        "chat_history": history[-3:],
         "user": user, 
         "exercises": exercises, 
         "research": research,

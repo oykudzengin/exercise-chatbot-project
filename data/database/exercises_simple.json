@@ -1,0 +1,1996 @@
+[
+    {
+        "name": "band sit-up",
+        "primary_muscles": "abs",
+        "secondary_muscles": "shoulders, chest",
+        "body_part": "core",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "neck_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "barbell rollerout",
+        "primary_muscles": "abs",
+        "secondary_muscles": "lower back",
+        "body_part": "core",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "flutter kicks",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors, lower abs",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "3/4 sit-up",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors, lower back",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "neck_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "lying leg-hip raise",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "oblique crunches floor",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "knee_pain",
+            "obesity",
+            "neck_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "shoulder tap",
+        "primary_muscles": "abs",
+        "secondary_muscles": "shoulders, triceps",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "russian twist",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "reverse crunch",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "knee_pain",
+            "obesity",
+            "neck_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "weighted crunch",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques",
+        "body_part": "core",
+        "equipment": "weighted",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "neck_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "hip raise (bent knee)",
+        "primary_muscles": "abs",
+        "secondary_muscles": "glutes, hamstrings",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "hanging straight leg raise",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "obesity",
+            "lowerback_pain",
+            "hypertension",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "mountain climbers",
+        "primary_muscles": "abs",
+        "secondary_muscles": "glutes, quadriceps, hamstrings, shoulders, triceps",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "hanging oblique knee raise",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "obesity",
+            "lowerback_pain",
+            "hypertension",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "full planche",
+        "primary_muscles": "abs",
+        "secondary_muscles": "shoulders, chest, triceps",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Advanced",
+        "not_suitable_for": [
+            "obesity",
+            "lowerback_pain",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "front plank with twist",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques, shoulders",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "inchworm",
+        "primary_muscles": "abs",
+        "secondary_muscles": "shoulders, hamstrings",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": " front plank",
+        "primary_muscles": "abs",
+        "secondary_muscles": "shoulders, lower back",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "hypertension",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "side plank",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques, shoulders",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "leg pull in flat bench",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors, lower back",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "knee touch crunch",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "knee_pain",
+            "obesity",
+            "neck_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "tuck crunch",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "knee_pain",
+            "obesity",
+            "neck_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "air bike",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "alternate heel touchers",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "decline sit-up",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors, lower back",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "neck_pain",
+            "hypertension",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "weighted decline sit-up",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors, lower back",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "neck_pain",
+            "hypertension",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "dead bug",
+        "primary_muscles": "abs",
+        "secondary_muscles": "hip flexors, lower back",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "cable standing crunch",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques",
+        "body_part": "core",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "neck_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "cable side crunch",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques",
+        "body_part": "core",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "neck_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "cable side bend",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques",
+        "body_part": "core",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "dumbbell side bend",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques",
+        "body_part": "core",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "cable twist",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques",
+        "body_part": "core",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "kettlebell windmill",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques, shoulders",
+        "body_part": "core",
+        "equipment": "kettlebell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "shoulder_pain",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "roller body saw",
+        "primary_muscles": "abs",
+        "secondary_muscles": "shoulders, triceps, core",
+        "body_part": "core",
+        "equipment": "roller",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "abs crunch machine",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques",
+        "body_part": "core",
+        "equipment": "machine",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "weighted front plank",
+        "primary_muscles": "abs",
+        "secondary_muscles": "shoulders, lower back",
+        "body_part": "core",
+        "equipment": "weighted",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "hypertension",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "weighted russian twist (legs up)",
+        "primary_muscles": "abs",
+        "secondary_muscles": "obliques, hip flexors",
+        "body_part": "core",
+        "equipment": "weighted",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "hypertension"
+        ]
+    },
+    {
+        "name": "calf raise",
+        "primary_muscles": "calves",
+        "secondary_muscles": "ankles, feet",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "weighted calf raise",
+        "primary_muscles": "calves",
+        "secondary_muscles": "ankles, feet",
+        "body_part": "legs",
+        "equipment": "weighted",
+        "difficulty": "beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "cable hip adduction",
+        "primary_muscles": "adductors",
+        "secondary_muscles": "glutes, quadriceps",
+        "body_part": "legs",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "machine hip adduction",
+        "primary_muscles": "adductors",
+        "secondary_muscles": "hamstrings, glutes",
+        "body_part": "legs",
+        "equipment": "leverage machine",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "band seated hip abduction",
+        "primary_muscles": "abductors",
+        "secondary_muscles": "glutes, hamstrings",
+        "body_part": "legs",
+        "equipment": "resistance band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "band standing hip abduction",
+        "primary_muscles": "abductors",
+        "secondary_muscles": "glutes, hamstrings",
+        "body_part": "legs",
+        "equipment": "resistance band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "cable hip abduction",
+        "primary_muscles": "abductors",
+        "secondary_muscles": "glutes, quadriceps",
+        "body_part": "legs",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "cable glute kickback",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, quadriceps",
+        "body_part": "legs",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "band glute bridge",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, quadriceps",
+        "body_part": "legs",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "glute bridge",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, quadriceps",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "dumbbell glute bridge",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, quadriceps",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "barbell glute bridge",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, quadriceps",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "band step-up",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "step-up",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "cable step-up",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "cable",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "dumbbell step-up",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "smith machine step-up",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "smith machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "band deadlift",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "dumbbell deadlift",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain",
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "dumbbell romanian deadlift",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "dumbbell single-leg deadlift",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "barbell deadlift",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain",
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "barbell romanian deadlift",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "smith machine deadlift",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "smith machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "band hip extension",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "45 degree hip extension",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "hypertension"
+        ]
+    },
+    {
+        "name": "45 degree weighted hip extension",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "weighted",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "hypertension"
+        ]
+    },
+    {
+        "name": "band squat",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "bodyweight squat",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "dumbbell squat",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "barbell squat",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain",
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "barbell box squat",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain",
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "barbell front squat",
+        "primary_muscles": "quadriceps",
+        "secondary_muscles": "glutes, hamstrings, calves, core",
+        "body_part": "legs",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "lowerback_pain",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "hack squat",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "smith machine squat",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "smith machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "knee_pain",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "dumbbell bulgarian split squat",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "bulgarian split squat",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "jump squat",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "obesity"
+        ]
+    },
+    {
+        "name": "jump lunge",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "obesity"
+        ]
+    },
+    {
+        "name": "barbell lunge",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "dumbbell lunge",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "smith machine lunge",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "smith machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "lunge",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "barbell hip thrust",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, quadriceps",
+        "body_part": "legs",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "dumbbell hip thrust",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, quadriceps",
+        "body_part": "legs",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "band hip thrust",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, quadriceps",
+        "body_part": "legs",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "hip thrust",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, quadriceps",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "smith machine hip thrust",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "smith machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "barbell good morning",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "barbell rack pull",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "neck_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "march sit (wall)",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "glute bridge march",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, quadriceps",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "neck_pain",
+            "lowerback_pain"
+        ]
+    },
+    {
+        "name": "cable pull through (with rope)",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "hamstrings, lower back",
+        "body_part": "legs",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "leg press",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "legs",
+        "equipment": "sled machine",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "leg extension",
+        "primary_muscles": "quadriceps",
+        "secondary_muscles": "hamstrings",
+        "body_part": "legs",
+        "equipment": "machine",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "seated leg curl",
+        "primary_muscles": "hamstrings",
+        "secondary_muscles": "calves",
+        "body_part": "legs",
+        "equipment": "machine",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "lying leg curl",
+        "primary_muscles": "hamstrings",
+        "secondary_muscles": "calves",
+        "body_part": "legs",
+        "equipment": "machine",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "band lat pulldown",
+        "primary_muscles": "lats",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "machine lat pulldown",
+        "primary_muscles": "lats",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "machine",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "band assisted pull-up",
+        "primary_muscles": "lats",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "band",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain",
+            "obesity",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "machine assisted pull-up",
+        "primary_muscles": "lats",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain",
+            "obesity",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "pull-up",
+        "primary_muscles": "lats",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "body weight",
+        "difficulty": "Advanced",
+        "not_suitable_for": [
+            "shoulder_pain",
+            "obesity",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "weighted pull-up",
+        "primary_muscles": "lats",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "weighted",
+        "difficulty": "Advanced",
+        "not_suitable_for": [
+            "shoulder_pain",
+            "obesity",
+            "lowerback_pain",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "chin-up",
+        "primary_muscles": "lats",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "body weight",
+        "difficulty": "Advanced",
+        "not_suitable_for": [
+            "shoulder_pain",
+            "obesity",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "machine reverse fly",
+        "primary_muscles": "lats",
+        "secondary_muscles": "shoulders, triceps",
+        "body_part": "back",
+        "equipment": "machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "hyperextension",
+        "primary_muscles": "spine",
+        "secondary_muscles": "glutes, hamstrings",
+        "body_part": "back",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "hypertension",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "weighted hyperextension",
+        "primary_muscles": "spine",
+        "secondary_muscles": "glutes, hamstrings",
+        "body_part": "back",
+        "equipment": "weighted",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain",
+            "hypertension"
+        ]
+    },
+    {
+        "name": "cable one-arm row",
+        "primary_muscles": "lats",
+        "secondary_muscles": "shoulders, biceps",
+        "body_part": "back",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "band row",
+        "primary_muscles": "upper back",
+        "secondary_muscles": "biceps, shoulders",
+        "body_part": "back",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "seated machine row",
+        "primary_muscles": "upper back",
+        "secondary_muscles": "biceps, shoulders",
+        "body_part": "back",
+        "equipment": "machine",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "barbell bent over row",
+        "primary_muscles": "upper back",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "smith machine bent over row",
+        "primary_muscles": "upper back",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "smith machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "dumbbell bent over row",
+        "primary_muscles": "upper back",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "dumbbell incline bench row",
+        "primary_muscles": "upper back",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "suspended row",
+        "primary_muscles": "upper back",
+        "secondary_muscles": "biceps, shoulders",
+        "body_part": "back",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "inverted row",
+        "primary_muscles": "upper back",
+        "secondary_muscles": "biceps, forearms",
+        "body_part": "back",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "band shrug",
+        "primary_muscles": "traps",
+        "secondary_muscles": "shoulders",
+        "body_part": "back",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "barbell shrug",
+        "primary_muscles": "traps",
+        "secondary_muscles": "shoulders",
+        "body_part": "back",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "neck_pain",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "facepulls",
+        "primary_muscles": "traps",
+        "secondary_muscles": "shoulders, rhomboids, biceps",
+        "body_part": "shoulders",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "band biceps curl",
+        "primary_muscles": "biceps",
+        "secondary_muscles": "forearms",
+        "body_part": "arms",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "cable biceps curl",
+        "primary_muscles": "biceps",
+        "secondary_muscles": "forearms",
+        "body_part": "arms",
+        "equipment": "cable",
+        "difficulty": "Intermediate",
+        "not_suitable_for": []
+    },
+    {
+        "name": "ez barbell curl",
+        "primary_muscles": "biceps",
+        "secondary_muscles": "forearms",
+        "body_part": "arms",
+        "equipment": "ez barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": []
+    },
+    {
+        "name": "dumbbell biceps curl",
+        "primary_muscles": "biceps",
+        "secondary_muscles": "forearms",
+        "body_part": "arms",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": []
+    },
+    {
+        "name": "barbell biceps curl",
+        "primary_muscles": "biceps",
+        "secondary_muscles": "forearms",
+        "body_part": "arms",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": []
+    },
+    {
+        "name": "preacher biceps curl",
+        "primary_muscles": "biceps",
+        "secondary_muscles": "forearms",
+        "body_part": "arms",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": []
+    },
+    {
+        "name": "machine biceps curl",
+        "primary_muscles": "biceps",
+        "secondary_muscles": "forearms",
+        "body_part": "arms",
+        "equipment": "machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": []
+    },
+    {
+        "name": "close-grip push-up",
+        "primary_muscles": "triceps",
+        "secondary_muscles": "chest, shoulders",
+        "body_part": "arms",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": []
+    },
+    {
+        "name": "band triceps extension",
+        "primary_muscles": "triceps",
+        "secondary_muscles": "shoulders",
+        "body_part": "arms",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "dumbell overhead triceps extension",
+        "primary_muscles": "triceps",
+        "secondary_muscles": "shoulders",
+        "body_part": "arms",
+        "equipment": "band",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain",
+            "hypertension"
+        ]
+    },
+    {
+        "name": "barbell skull crusher",
+        "primary_muscles": "triceps",
+        "secondary_muscles": "shoulders",
+        "body_part": "arms",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "bench dip on floor",
+        "primary_muscles": "triceps",
+        "secondary_muscles": "chest, shoulders",
+        "body_part": "arms",
+        "equipment": "body weight",
+        "difficulty": "Advanced",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "cable triceps pushdown",
+        "primary_muscles": "triceps",
+        "secondary_muscles": "forearms",
+        "body_part": "arms",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "cable triceps kickback",
+        "primary_muscles": "triceps",
+        "secondary_muscles": "shoulders",
+        "body_part": "arms",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "machine triceps extension",
+        "primary_muscles": "triceps",
+        "secondary_muscles": "shoulders",
+        "body_part": "arms",
+        "equipment": "machine",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "band chest press",
+        "primary_muscles": "chest",
+        "secondary_muscles": "triceps, shoulders",
+        "body_part": "chest",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "barbell bench press",
+        "primary_muscles": "chest",
+        "secondary_muscles": "triceps, shoulders",
+        "body_part": "chest",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "dumbbell bench press",
+        "primary_muscles": "chest",
+        "secondary_muscles": "triceps, shoulders",
+        "body_part": "chest",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "barbell incline bench press",
+        "primary_muscles": "chest",
+        "secondary_muscles": "shoulders, triceps",
+        "body_part": "chest",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "machine chest press",
+        "primary_muscles": "chest",
+        "secondary_muscles": "shoulders, triceps",
+        "body_part": "chest",
+        "equipment": "machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "machine chest fly",
+        "primary_muscles": "chest",
+        "secondary_muscles": "shoulders, triceps",
+        "body_part": "chest",
+        "equipment": "machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "cable chest fly",
+        "primary_muscles": "chest",
+        "secondary_muscles": "shoulders, triceps",
+        "body_part": "chest",
+        "equipment": "cable",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "kneeling push-up  ",
+        "primary_muscles": "chest",
+        "secondary_muscles": "triceps, shoulders",
+        "body_part": "chest",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "push-up",
+        "primary_muscles": "chest",
+        "secondary_muscles": "triceps, deltoids, core",
+        "body_part": "chest",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": []
+    },
+    {
+        "name": "chest dip",
+        "primary_muscles": "chest",
+        "secondary_muscles": "triceps, shoulders",
+        "body_part": "chest",
+        "equipment": "body weight",
+        "difficulty": "Advanced",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "weighted chest dip",
+        "primary_muscles": "chest",
+        "secondary_muscles": "triceps, shoulders",
+        "body_part": "chest",
+        "equipment": "weighted",
+        "difficulty": "Advanced",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "dumbbell pullover",
+        "primary_muscles": "chest",
+        "secondary_muscles": "latissimus dorsi, triceps",
+        "body_part": "chest",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain",
+            "neck_pain"
+        ]
+    },
+    {
+        "name": "band shoulder press",
+        "primary_muscles": "shoulders",
+        "secondary_muscles": "triceps, upper back",
+        "body_part": "shoulders",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "band lateral raise",
+        "primary_muscles": "shoulders",
+        "secondary_muscles": "traps, upper back",
+        "body_part": "shoulders",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "dumbbell lateral raise",
+        "primary_muscles": "shoulders",
+        "secondary_muscles": "traps, upper back",
+        "body_part": "shoulders",
+        "equipment": "band",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "barbell overhead press",
+        "primary_muscles": "shoulders",
+        "secondary_muscles": "triceps, upper back",
+        "body_part": "shoulders",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain",
+            "shoulder_pain",
+            "hypertension"
+        ]
+    },
+    {
+        "name": "dumbbell shoulder press",
+        "primary_muscles": "shoulders",
+        "secondary_muscles": "triceps, upper back",
+        "body_part": "shoulders",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "machine shoulder press",
+        "primary_muscles": "shoulders",
+        "secondary_muscles": "triceps, upper back",
+        "body_part": "shoulders",
+        "equipment": "barbell",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "neck_pain",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "cable upright row",
+        "primary_muscles": "shoulders",
+        "secondary_muscles": "traps, biceps",
+        "body_part": "shoulders",
+        "equipment": "cable",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "band wrist curl",
+        "primary_muscles": "forearms",
+        "secondary_muscles": "biceps, triceps",
+        "body_part": "arms",
+        "equipment": "band",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "barbell wrist curl",
+        "primary_muscles": "forearms",
+        "secondary_muscles": "biceps, brachialis",
+        "body_part": "arms",
+        "equipment": "barbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": []
+    },
+    {
+        "name": "battling ropes",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "delts, forearms, core",
+        "body_part": "cardio",
+        "equipment": "rope",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "row ergometer",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "lats, biceps, forearms, delts",
+        "body_part": "cardio",
+        "equipment": "skierg machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "ski ergometer",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "glutes, lats, triceps, forearms, delts",
+        "body_part": "cardio",
+        "equipment": "rowerg machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "lowerback_pain",
+            "hypertension",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "star jump  ",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "cardio",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "obesity"
+        ]
+    },
+    {
+        "name": "running",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "cardio",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "obesity"
+        ]
+    },
+    {
+        "name": "bear crawl",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "core, shoulders, triceps",
+        "body_part": "cardio",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "hypertension"
+        ]
+    },
+    {
+        "name": "burpee",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "quadriceps, hamstrings, calves, shoulders, chest",
+        "body_part": "cardio",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "shoulder_pain",
+            "obesity"
+        ]
+    },
+    {
+        "name": "mountain climbers",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "core, shoulders, triceps",
+        "body_part": "cardio",
+        "equipment": "body weight",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "shoulder_pain",
+            "obesity"
+        ]
+    },
+    {
+        "name": "dumbbell devil press",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "quadriceps, hamstrings, calves, shoulders, triceps, core",
+        "body_part": "cardio",
+        "equipment": "dumbbell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "shoulder_pain",
+            "obesity"
+        ]
+    },
+    {
+        "name": "cross trainer",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "quadriceps, hamstrings, glutes, calves",
+        "body_part": "cardio",
+        "equipment": "elliptical machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "obesity"
+        ]
+    },
+    {
+        "name": "kettlebell swings",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "cardio",
+        "equipment": "kettlebell",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "lowerback_pain",
+            "hypertension",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "stationary bike walk",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "cardio",
+        "equipment": "leverage machine",
+        "difficulty": "Beginner",
+        "not_suitable_for": [
+            "knee_pain",
+            "shoulder_pain"
+        ]
+    },
+    {
+        "name": "walking on treadmill",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "quadriceps, hamstrings, calves",
+        "body_part": "cardio",
+        "equipment": "leverage machine",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "jump rope",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "calves, quadriceps, hamstrings, glutes",
+        "body_part": "cardio",
+        "equipment": "rope",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain",
+            "obesity"
+        ]
+    },
+    {
+        "name": "walking on stepmill",
+        "primary_muscles": "cardiovascular system",
+        "secondary_muscles": "quadriceps, hamstrings, glutes, calves",
+        "body_part": "cardio",
+        "equipment": "stepmill machine",
+        "difficulty": "Intermediate",
+        "not_suitable_for": [
+            "knee_pain"
+        ]
+    },
+    {
+        "name": "handstand",
+        "primary_muscles": "full-body",
+        "secondary_muscles": "shoulders, core",
+        "body_part": "full-body",
+        "equipment": "body weight",
+        "difficulty": "Advanced",
+        "not_suitable_for": [
+            "hypertension",
+            "neck_pain",
+            "shoulder_pain",
+            "lowerback_pain",
+            "obesity"
+        ]
+    },
+    {
+        "name": "rope climb",
+        "primary_muscles": "full-body",
+        "secondary_muscles": "forearms, biceps, shoulders",
+        "body_part": "back",
+        "equipment": "rope",
+        "difficulty": "Advanced",
+        "not_suitable_for": []
+    },
+    {
+        "name": "calf stretch",
+        "primary_muscles": "calves",
+        "secondary_muscles": "hamstrings, quadriceps",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "neck flexion&extension stretch",
+        "primary_muscles": "shoulders",
+        "secondary_muscles": "",
+        "body_part": "neck",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "shoulder roll stretch",
+        "primary_muscles": "shoulders",
+        "secondary_muscles": "",
+        "body_part": "shoulders",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "cat-cow stretch",
+        "primary_muscles": "spine",
+        "secondary_muscles": "",
+        "body_part": "spine",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "child's pose stretch",
+        "primary_muscles": "back",
+        "secondary_muscles": "",
+        "body_part": "spine",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "hands to feet stretch",
+        "primary_muscles": "full-body",
+        "secondary_muscles": "",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "pigeon stretch",
+        "primary_muscles": "legs",
+        "secondary_muscles": "",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "hip circle stretch",
+        "primary_muscles": "glutes",
+        "secondary_muscles": "",
+        "body_part": "legs",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "ankle circles stretch",
+        "primary_muscles": "arms",
+        "secondary_muscles": "",
+        "body_part": "arms",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "upward facing dog stretch",
+        "primary_muscles": "full-body",
+        "secondary_muscles": "",
+        "body_part": "full-body",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+    {
+        "name": "downward facing dog stretch",
+        "primary_muscles": "full-body",
+        "secondary_muscles": "",
+        "body_part": "full-body",
+        "equipment": "body weight",
+        "difficulty": "Beginner",
+        "not_suitable_for": []
+    },
+        {
+        "name": "flag",
+        "primary_muscles": "full-body",
+        "secondary_muscles": "obliques, shoulders",
+        "body_part": "core",
+        "equipment": "body weight",
+        "difficulty": "Advanced",
+        "not_suitable_for": [
+            "lowerback_pain",
+            "obesity"
+        ]
+    },
+    {
+        "name": "muscle-up",
+        "primary_muscles": "full-body",
+        "secondary_muscles": "biceps, triceps, shoulders, chest",
+        "body_part": "back",
+        "equipment": "body weight",
+        "difficulty": "Advanced",
+        "not_suitable_for": [
+            "shoulder_pain",
+            "obesity",
+            "hypertension",
+            "neck_pain"
+        ]
+    }
+]
