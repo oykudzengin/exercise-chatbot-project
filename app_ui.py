@@ -2,7 +2,7 @@ import streamlit as st
 from main import ex_chatbot_app 
 from langchain_core.messages import HumanMessage
 
-st.set_page_config(page_title="Elite Medical Coach", page_icon="🏋️‍♂️")
+st.set_page_config(page_title="Elite Medical Coach", page_icon="🏋️‍♂️", layout="wide")
 
 #Sidebar: Patient Dashboard
 with st.sidebar:
@@ -24,6 +24,7 @@ with st.sidebar:
     st.subheader("Current Profile")
     st.write(f"**Experience:** {profile.get('level', 'Unknown')}")
     st.write(f"**Goals:** {', '.join(profile.get('goals', ['Not set']))}")
+    st.write(f"**Type:** {profile.get('workout_type', 'Not set')}")
     st.write(f"**Conditions:** {', '.join(profile.get('conditions', ['None reported']))}")
     
     st.divider()
