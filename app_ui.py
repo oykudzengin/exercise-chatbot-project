@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 from main import ex_chatbot_app 
 from langchain_core.messages import HumanMessage
 
@@ -14,7 +15,7 @@ with st.sidebar:
         st.session_state.messages = []
         st.session_state.user_profile = {}
         # Changing thread_id forces LangGraph to forget the history
-        st.session_state.thread_id = f"session_{int(st.time.time())}"
+        st.session_state.thread_id = f"session_{int(time.time())}"
         st.rerun()
 
     st.divider()
