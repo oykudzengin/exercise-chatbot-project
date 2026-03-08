@@ -3,7 +3,8 @@
 
 Elite Medical Fitness Coach is a sophisticated AI-driven platform that bridges the gap between clinical research and daily fitness programming. Built using a **Retrieval-Augmented Generation (RAG)** architecture, the system synthesizes academic research with a curated exercise database to provide safe, personalized workout plans—even for users with chronic pain or medical conditions.
 
-![App Header or Screenshot](path/to/your/screenshot.png)
+![App Header or Screenshot](https://github.com/user-attachments/assets/13333ce2-fc7d-41f0-9d1a-68f1bede84ac)
+
 
 ## 🌟 Key Features
 * **Medical Safety Auditing:** A dedicated "Safety Grader" node that cross-references all AI suggestions against clinical guidelines.
